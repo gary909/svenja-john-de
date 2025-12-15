@@ -1,0 +1,10 @@
+# robots.txt zu http://www.svenja-john.de/
+
+User-agent: *
+Disallow: / flux
+Disallow: / css
+Disallow: / js
+Disallow: / logs
+Disallow: / scripts
+Disallow: / TEST
+Disallow: / links

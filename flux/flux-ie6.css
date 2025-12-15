@@ -1,0 +1,71 @@
+.closebutton {
+    /* NOTE! This URL is relative to the HTML page, not the CSS */
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
+		src='../flux/graphics/close.png', sizingMethod='scale');
+
+	background: none;
+	cursor: hand;
+}
+
+/* Viewport fixed hack */
+.flux-viewport {
+	position: absolute;
+    left: expression( ( ( ignoreMe1 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+	top: expression( ( ignoreMe2 = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) + 'px' );
+	width: expression( ( ( ignoreMe3 = document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) ) + 'px' );
+	height: expression( ( ( ignoreMe4 = document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) ) + 'px' );
+}
+
+/* Thumbstrip PNG fix */
+.flux-scroll-down, .flux-scroll-up {
+	position: relative;
+	overflow: hidden;
+}
+.flux-scroll-down div, .flux-scroll-up div {
+	/* NOTE! This URL is relative to the HTML page, not the CSS */
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
+		src='/flux/graphics/scrollarrows.png', sizingMethod='scale');
+	background: none !important;
+	position: absolute;
+	cursor: hand;
+	width: 75px;
+	height: 75px !important;
+}
+.flux-thumbstrip-horizontal .flux-scroll-down div {
+	left: -50px;
+	top: -15px;
+}
+.flux-thumbstrip-horizontal .flux-scroll-up div {
+	top: -15px;
+}
+.flux-thumbstrip-vertical .flux-scroll-down div {
+	top: -50px;
+}
+
+/* Thumbstrip marker arrow trasparent background fix */
+.flux-thumbstrip .flux-marker {
+	border-color: white; /* match the background */
+}
+.dark .flux-thumbstrip-horizontal .flux-marker {
+	border-color: #111;
+}
+.flux-viewport .flux-marker {
+	border-color: #333;
+}
+.flux-thumbstrip {
+	float: left;
+}
+
+/* Positioning fixes for the control bar */
+.text-controls .flux-controls {
+	width: 480px;
+}
+.text-controls a span {
+	width: 4em;
+}
+.text-controls .flux-full-expand a span {
+	width: 0;
+}
+.text-controls .flux-close a span {
+	width: 0;
+}

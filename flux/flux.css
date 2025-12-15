@@ -1,0 +1,761 @@
+
+.flux-container div {
+	font-family: microsoft sans serif;
+	font-size: 11pt;
+	color: black;
+}
+.flux-container table {
+	background: none;
+}
+.flux {
+	outline: none;
+	text-decoration: none;
+}
+.flux img {
+/*	border: 2px solid silver;  */
+}
+.flux:hover img {
+	border-color: gray;
+}
+.flux-active-anchor img {
+	visibility: hidden;
+}
+.flux-gallery .flux-active-anchor img {
+	border-color: black;
+	visibility: visible;
+	cursor: default;
+}
+.flux-image {
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	background: gray;
+}
+.flux-wrapper, .flux-outline {
+	background: white;
+}
+
+    /* "POLAROID Lasche" TEXT-1 */
+.flux-caption {
+        font-weight: bold;
+	height: 34px;
+	margin-top: 7px;
+	margin-left: 3px;
+}
+    /* "POLAROID Lasche" TEXT-2 */
+.flux-heading {
+	display: none;
+	font-size: 7pt;
+	font-weight: normal;
+	margin-top: 28px;
+	margin-left: 6px;
+}
+.flux-dimming {
+	position: absolute;
+	background: black;
+}
+
+.flux-loading {
+	display: block;
+	color: black;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 3px;
+	border: 1px solid white;
+	background-color: white;
+	padding-left: 22px;
+	background-image: url(graphics/loader.white.gif);
+	background-repeat: no-repeat;
+	background-position: 3px 1px;
+}
+
+.flux-move, .flux-move * {
+	cursor: move;
+}
+
+.flux-viewport {
+	display: none;
+	visibility: hidden;
+	position: fixed;
+	width: 100%;
+	height: 80%;
+	margin: 75px 35px 60px 35px
+	z-index: 1;
+	background: none;
+	left: 0;
+	top: 0;
+}
+.flux-overlay {
+	display: none;
+}
+.hidden-container {
+	display: none;
+}
+/* Example of a semitransparent, offset closebutton */
+.closebutton {
+	position: relative;
+	top: -15px;
+	left: 15px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: url(graphics/close.png);
+	/* NOTE! For IE6, you also need to update the flux-ie6.css file. */
+}
+
+/*****************************************************************************/
+/* Thumbnail boxes for the galleries.                                        */
+/* Remove these if you are not using a gallery.                              */
+/*****************************************************************************/
+.flux-gallery ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.flux-gallery ul li {
+	display: block;
+	position: relative;
+	float: left;
+	width: 106px;
+	height: 106px;
+	border: 1px solid silver;
+	background: #ededed;
+	margin: 2px;
+	line-height: 0;
+	overflow: hidden;
+}
+.flux-gallery ul a {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.flux-gallery ul img {
+ 	position: relative;
+ 	border-width: 1px;
+	top: -50%;
+	left: -50%;
+}
+
+
+/* Kommentar: das aendert die hintergrundfarbe der seite */
+/* body { background-color: #B5B5B5; ----(orig ok in opera) */
+body { background-color: #000;
+}
+
+html>/**/body .flux-gallery ul li {
+	display: table;
+	text-align: center;
+/* aendert die hintergrundfarbe der foto-thumbs-umrandung */
+	background-color: #FFFFFF;
+}
+html>/**/body .flux-gallery ul li {
+	text-align: center;
+}
+html>/**/body .flux-gallery ul a {
+	position: static;
+	display: table-cell;
+	vertical-align: middle;
+}
+html>/**/body .flux-gallery ul img {
+	position: static;
+}
+
+/*****************************************************************************/
+/* Controls for the galleries.											     */
+/* Remove these if you are not using a gallery							     */
+/*****************************************************************************/
+.flux-controls {
+	width: 195px;
+	height: 40px;
+	background: url(graphics/controlbar-white.gif) 0 -90px no-repeat;
+	margin: 20px 15px 10px 0;
+}
+.flux-controls ul {
+	position: relative;
+	left: 15px;
+	height: 40px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: url(graphics/controlbar-white.gif) right -90px no-repeat;
+
+}
+.flux-controls li {
+	float: left;
+	padding: 5px 0;
+	margin:0;
+}
+.flux-controls a {
+	background-image: url(graphics/controlbar-white.gif);
+	display: block;
+	float: left;
+	height: 30px;
+	width: 30px;
+	outline: none;
+}
+.flux-controls a.disabled {
+	cursor: default;
+}
+.flux-controls a.disabled span {
+	cursor: default;
+}
+.flux-controls a span {
+	/* hide the text for these graphic buttons */
+	display: none;
+	cursor: pointer;
+}
+
+
+/* The CSS sprites for the controlbar - see http://www.google.com/search?q=css+sprites */
+.flux-controls .flux-previous a {
+	background-position: 0 0;
+}
+.flux-controls .flux-previous a:hover {
+	background-position: 0 -30px;
+}
+.flux-controls .flux-previous a.disabled {
+	background-position: 0 -60px !important;
+}
+.flux-controls .flux-play a {
+	background-position: -30px 0;
+}
+.flux-controls .flux-play a:hover {
+	background-position: -30px -30px;
+}
+.flux-controls .flux-play a.disabled {
+	background-position: -30px -60px !important;
+}
+.flux-controls .flux-pause a {
+	background-position: -60px 0;
+}
+.flux-controls .flux-pause a:hover {
+	background-position: -60px -30px;
+}
+.flux-controls .flux-next a {
+	background-position: -90px 0;
+}
+.flux-controls .flux-next a:hover {
+	background-position: -90px -30px;
+}
+.flux-controls .flux-next a.disabled {
+	background-position: -90px -60px !important;
+}
+.flux-controls .flux-move a {
+	background-position: -120px 0;
+}
+.flux-controls .flux-move a:hover {
+	background-position: -120px -30px;
+}
+.flux-controls .flux-full-expand a {
+	background-position: -150px 0;
+}
+.flux-controls .flux-full-expand a:hover {
+	background-position: -150px -30px;
+}
+.flux-controls .flux-full-expand a.disabled {
+	background-position: -150px -60px !important;
+}
+.flux-controls .flux-close a {
+	background-position: -180px 0;
+}
+.flux-controls .flux-close a:hover {
+	background-position: -180px -30px;
+}
+
+/*****************************************************************************/
+/* Styles for the HTML popups											     */
+/* Remove these if you are not using flux HTML						     */
+/*****************************************************************************/
+.flux-maincontent {
+	/* display: none;  --orig  */
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+.flux-html {
+	background-color: white;
+}
+.flux-html-content {
+	display: none;
+	width: 400px;
+	padding: 0 5px 5px 5px;
+}
+.flux-header {
+	padding-bottom: 5px;
+}
+.flux-header ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.flux-header ul li {
+	display: inline;
+	padding-left: 1em;
+}
+.flux-header ul li.flux-previous, .flux-header ul li.flux-next {
+	display: none;
+}
+.flux-header a {
+	font-weight: bold;
+	color: gray;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.flux-header a:hover {
+	color: black;
+}
+.flux-header .flux-move a {
+	cursor: move;
+}
+.flux-footer {
+	/*height: 16px;  --orig */
+		height: 90px;
+}
+.flux-footer .flux-resize {
+	display: block;
+	float: right;
+	margin-top: 5px;
+	height: 11px;
+	width: 11px;
+	background: url(graphics/resize.gif) no-repeat;
+}
+.flux-footer .flux-resize span {
+	display: none;
+}
+.flux-body {
+}
+.flux-resize {
+	cursor: nw-resize;
+}
+
+/*****************************************************************************/
+/* Styles for the Individual wrapper class names.							 */
+/* See www.flux.com/ref/hs.wrapperClassName							 */
+/* You can safely remove the class name themes you don't use				 */
+/*****************************************************************************/
+
+/* hs.wrapperClassName = 'draggable-header' */
+.draggable-header .flux-header {
+	height: 18px;
+	border-bottom: 1px solid #dddddd;
+}
+.draggable-header .flux-heading {
+	position: absolute;
+	margin: 2px 0.4em;
+}
+
+.draggable-header .flux-header .flux-move {
+	cursor: move;
+	display: block;
+	height: 16px;
+	position: absolute;
+	right: 24px;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+.draggable-header .flux-header .flux-move * {
+	display: none;
+}
+.draggable-header .flux-header .flux-close {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	z-index: 2;
+	padding: 0;
+}
+.draggable-header .flux-header .flux-close a {
+	display: block;
+	height: 16px;
+	width: 16px;
+	background-image: url(graphics/closeX.png);
+}
+.draggable-header .flux-header .flux-close a:hover {
+	background-position: 0 16px;
+}
+.draggable-header .flux-header .flux-close span {
+	display: none;
+}
+.draggable-header .flux-maincontent {
+	padding-top: 1em;
+}
+
+/* hs.wrapperClassName = 'titlebar' */
+.titlebar .flux-header {
+	height: 18px;
+	border-bottom: 1px solid #dddddd;
+}
+.titlebar .flux-heading {
+	position: absolute;
+	margin: 1px 0.4em;
+	color: #666666;
+}
+
+.titlebar .flux-header .flux-move {
+	cursor: move;
+	display: block;
+	height: 16px;
+	position: absolute;
+	right: 24px;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+.titlebar .flux-header .flux-move * {
+	display: none;
+}
+.titlebar .flux-header li {
+	position: relative;
+	top: 3px;
+	z-index: 2;
+	padding: 0 0 0 1em;
+}
+.titlebar .flux-maincontent {
+	padding-top: 1em;
+}
+
+/* hs.wrapperClassName = 'no-footer' */
+.no-footer .flux-footer {
+	display: none;
+}
+
+/* hs.wrapperClassName = 'wide-border' */
+.wide-border {
+	background: white;
+}
+.wide-border .flux-image {
+	border-width: 10px;
+}
+.wide-border .flux-caption {
+	padding: 0 10px 10px 10px;
+}
+
+/* hs.wrapperClassName = 'borderless' */
+.borderless .flux-image {
+	border: none;
+}
+.borderless .flux-caption {
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	background: silver;
+}
+
+/* hs.wrapperClassName = 'outer-glow' */
+.outer-glow {
+	background: #444;
+}
+.outer-glow .flux-image {
+	border: 5px solid #444444;
+}
+.outer-glow .flux-caption {
+	border: 5px solid #444444;
+	border-top: none;
+	padding: 5px;
+	background-color: gray;
+}
+
+/* hs.wrapperClassName = 'colored-border' */
+.colored-border {
+	background: white;
+}
+.colored-border .flux-image {
+	border: 2px solid green;
+}
+.colored-border .flux-caption {
+	border: 2px solid green;
+	border-top: none;
+}
+
+/* hs.wrapperClassName = 'dark' */
+.dark {
+	background: #111;
+}
+.dark .flux-image {
+	border-color: black black #202020 black;
+	background: gray;
+}
+.dark .flux-caption {
+	color: white;
+	background: #111;
+}
+.dark .flux-controls,
+.dark .flux-controls ul,
+.dark .flux-controls a {
+	background-image: url(graphics/controlbar-black-border.gif);
+}
+
+/* hs.wrapperClassName = 'floating-caption' */
+.floating-caption .flux-caption {
+	position: absolute;
+	padding: 1em 0 0 0;
+	background: none;
+	color: white;
+	border: none;
+	font-weight: bold;
+}
+
+/* hs.wrapperClassName = 'controls-in-heading' */
+.controls-in-heading .flux-heading {
+	color: gray;
+	font-weight: bold;
+	height: 20px;
+	overflow: hidden;
+	cursor: default;
+	padding: 0 0 0 22px;
+	margin: 0;
+	background: url(graphics/icon.gif) no-repeat 0 1px;
+}
+.controls-in-heading .flux-controls {
+	width: 105px;
+	height: 20px;
+	position: relative;
+	margin: 0;
+	top: -23px;
+	left: 7px;
+	background: none;
+}
+.controls-in-heading .flux-controls ul {
+	position: static;
+	height: 20px;
+	background: none;
+}
+.controls-in-heading .flux-controls li {
+	padding: 0;
+}
+.controls-in-heading .flux-controls a {
+	background-image: url(graphics/controlbar-white-small.gif);
+	height: 20px;
+	width: 20px;
+}
+
+.controls-in-heading .flux-controls .flux-move {
+	display: none;
+}
+
+.controls-in-heading .flux-controls .flux-previous a {
+	background-position: 0 0;
+}
+.controls-in-heading .flux-controls .flux-previous a:hover {
+	background-position: 0 -20px;
+}
+.controls-in-heading .flux-controls .flux-previous a.disabled {
+	background-position: 0 -40px !important;
+}
+.controls-in-heading .flux-controls .flux-play a {
+	background-position: -20px 0;
+}
+.controls-in-heading .flux-controls .flux-play a:hover {
+	background-position: -20px -20px;
+}
+.controls-in-heading .flux-controls .flux-play a.disabled {
+	background-position: -20px -40px !important;
+}
+.controls-in-heading .flux-controls .flux-pause a {
+	background-position: -40px 0;
+}
+.controls-in-heading .flux-controls .flux-pause a:hover {
+	background-position: -40px -20px;
+}
+.controls-in-heading .flux-controls .flux-next a {
+	background-position: -60px 0;
+}
+.controls-in-heading .flux-controls .flux-next a:hover {
+	background-position: -60px -20px;
+}
+.controls-in-heading .flux-controls .flux-next a.disabled {
+	background-position: -60px -40px !important;
+}
+.controls-in-heading .flux-controls .flux-full-expand a {
+	background-position: -100px 0;
+}
+.controls-in-heading .flux-controls .flux-full-expand a:hover {
+	background-position: -100px -20px;
+}
+.controls-in-heading .flux-controls .flux-full-expand a.disabled {
+	background-position: -100px -40px !important;
+}
+.controls-in-heading .flux-controls .flux-close a {
+	background-position: -120px 0;
+}
+.controls-in-heading .flux-controls .flux-close a:hover {
+	background-position: -120px -20px;
+}
+
+/*****************************************************************************/
+/* Styles for text based controls.						                     */
+/* You can safely remove this if you don't use text based controls			 */
+/*****************************************************************************/
+
+.text-controls .flux-controls {
+	width: auto;
+	height: auto;
+	margin: 0;
+	text-align: center;
+	background: none;
+}
+.text-controls ul {
+	position: static;
+	background: none;
+	height: auto;
+	left: 0;
+}
+.text-controls .flux-move {
+	display: none;
+}
+.text-controls li {
+    background-image: url(graphics/controlbar-text-buttons.png);
+	background-position: right top !important;
+	padding: 0;
+	margin-left: 15px;
+	display: block;
+	width: auto;
+}
+.text-controls a {
+    background: url(graphics/controlbar-text-buttons.png) no-repeat;
+    background-position: left top !important;
+    position: relative;
+    left: -10px;
+	display: block;
+	width: auto;
+	height: auto;
+	text-decoration: none !important;
+}
+.text-controls a span {
+	background: url(graphics/controlbar-text-buttons.png) no-repeat;
+    margin: 1px 2px 1px 10px;
+	display: block;
+    min-width: 4em;
+    height: 18px;
+    line-height: 18px;
+	padding: 1px 0 1px 18px;
+    color: #333;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.text-controls .flux-next {
+	margin-right: 1em;
+}
+.text-controls .flux-full-expand a span {
+	min-width: 0;
+	margin: 1px 0;
+	padding: 1px 0 1px 10px;
+}
+.text-controls .flux-close a span {
+	min-width: 0;
+}
+.text-controls a:hover span {
+	color: black;
+}
+.text-controls a.disabled span {
+	color: #999;
+}
+
+.text-controls .flux-previous span {
+	background-position: 0 -40px;
+}
+.text-controls .flux-previous a.disabled {
+	background-position: left top !important;
+}
+.text-controls .flux-previous a.disabled span {
+	background-position: 0 -140px;
+}
+.text-controls .flux-play span {
+	background-position: 0 -60px;
+}
+.text-controls .flux-play a.disabled {
+	background-position: left top !important;
+}
+.text-controls .flux-play a.disabled span {
+	background-position: 0 -160px;
+}
+.text-controls .flux-pause span {
+	background-position: 0 -80px;
+}
+.text-controls .flux-next span {
+	background-position: 0 -100px;
+}
+.text-controls .flux-next a.disabled {
+	background-position: left top !important;
+}
+.text-controls .flux-next a.disabled span {
+	background-position: 0 -200px;
+}
+.text-controls .flux-full-expand span {
+	background: none;
+}
+.text-controls .flux-full-expand a.disabled {
+	background-position: left top !important;
+}
+.text-controls .flux-close span {
+	background-position: 0 -120px;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~*/
+/* WORK_GALLERY    */
+/*~~~~~~~~~~~~~~~~~*/
+.flux-wrapper, .flux-outline {
+/* farbe text-feld */
+	background: #FFF;
+
+	
+}
+.flux img {
+/* rahmen mini-bild */
+
+}
+.flux:hover img {
+	border-color: #A0A0A0;
+}
+.flux-active-anchor img {
+	visibility: visible;
+	border-color: #808080 !important;
+}
+.flux-image {
+		border-bottom: 1px solid #D7D7D7;
+
+}
+.flux-caption {
+	padding: 2px;
+}
+.flux-loading {
+	color: black;
+	border: 1px solid black;
+	background-color: white;
+	background-image: url(graphics/loader.white.gif);
+
+}
+
+.flux-controls {
+	position: static !important;
+	margin-bottom: 0;
+	width: 195px !important;
+}
+/* rahmen kleine vorschau-bilder */
+.flux-gallery ul li {
+	width: 106px;
+	height: 75px;
+
+	background: #EDEDED;
+	margin: 2px;
+	border-radius: 4px;
+}
+.flux-html {
+	background: none;
+}
+.flux-header ul a {
+/* ### ev. aendern !! */
+	background-image: url(graphics/controlbar-text-buttons.png);
+	padding-left: 16px;
+}
+.flux-header .flux-move {
+	display: none;
+}
+.flux-header .flux-close a {
+	background-position: 0 -221px;
+}
