@@ -801,7 +801,39 @@ footer {
   color: red;
 }
 
+/* **************NEW 2026 ************* */
+/* Mobile Styles (Devices 768px and smaller) */
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 14px; /* Increases readability on small screens */
+  }
 
+  h1 {
+    font-size: 16px; /* Adjusts logo size */
+    text-align: center;
+    margin-right: 0;
+  }
+
+  #options {
+    float: none; /* Centers the language/layout options */
+    text-align: center;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .flux-body {
+    height: auto !important; /* Allows gallery sections to grow vertically */
+    margin: 10px 0;
+  }
+
+  #iBox {
+    max-width: 100%; /* Ensures the footer text fits the screen */
+    padding: 10px;
+  }
+}
+/* ************** END OF NEW 2026 ************* */
 
 /* >> The Magnificent CLEARFIX: Updated to prevent margin-collapsing on child elements << j.mp/bestclearfix */
 .clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; visibility: hidden; }
