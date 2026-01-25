@@ -1,0 +1,32 @@
+div.limiter {
+	width: 100%;
+
+	padding: 0px 0px;
+	float: left
+	margin: 0px 0px;
+}
+
+ul#portfolio {
+	margin: 6px 0px 2px 6px;
+	padding: 0px 0px 0px 0px;
+	list-style:none;
+
+}
+
+/* Listen */
+
+ul#portfolio li img{
+
+	width: 798px;
+	height: 100%;
+	margin-bottom: 0px
+}
+
+
+
+
+
+
+
+
+	

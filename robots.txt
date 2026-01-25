@@ -6,5 +6,12 @@ Disallow: / css
 Disallow: / js
 Disallow: / logs
 Disallow: / scripts
-Disallow: / TEST
+Disallow: / download
+Disallow: / images
 Disallow: / links
+Disallow: / press
+Disallow: / TEST
+Disallow: / s
+
+User-agent: GPTBot
+Disallow: /

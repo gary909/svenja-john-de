@@ -1,0 +1,10 @@
+User-agent: *
+
+Disallow: /alte-website/
+Disallow: /css/
+Disallow: /logs/
+Disallow: /image/
+Disallow: /images/
+Disallow: /js/
+Disallow: /style.css
+Disallow: /datenschutz/

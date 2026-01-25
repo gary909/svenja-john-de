@@ -1,0 +1,344 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+
+<head>
+<title>XEMAROO design</title>
+<meta content="Svenja John Kunststoff xemaroo design interior Berlin Makrolon reddot syntetic art" name="description">
+
+<!-- detecting javascript -->
+<noscript>
+	<div id="noscript">
+    		<a href="no_javascript.html"><h1>Next Page</h1></a>
+	</div>
+</noscript>
+
+<link rel="stylesheet" type="text/css" href="stylex.css" media="all">
+
+<link rel="stylesheet" href="css/jq_fade.css"  type="text/css" media="screen, projection" />
+
+</head>
+
+<body>
+<a name="top"></a>
+<div id="content">
+<div id="top_header">
+
+<!-- fade-container -->
+  <div id="fade_con" class="limiter">
+  	<ul id="portfolio">
+  	  <li><img src="images/002.gif" alt="1" /></li>
+      <li><img src="images/001.jpg" alt="2" /></li>
+	  <li><img src="images/002.gif" alt="3" /></li>
+	  <li><img src="images/003.jpg" alt="4" /></li>
+	  <li><img src="images/002.gif" alt="5" /></li>
+	  <li><img src="images/004.png" alt="6" /></li>
+	  <li><img src="images/002.gif" alt="7" /></li>
+	  <li><img src="images/005.jpg" alt="8" /></li>
+	  <li><img src="images/002.gif" alt="9" /></li>
+	  <li><img src="images/006.jpg" alt="10" /></li>
+	  <li><img src="images/002.gif" alt="11" /></li>
+	  <li><img src="images/007.jpg" alt="12" /></li>
+	  <li><img src="images/002.gif" alt="13" /></li>
+	  <li><img src="images/008.jpg" alt="14" /></li>
+	  <li><img src="images/002.gif" alt="15" /></li>
+	  <li><img src="images/009.jpg" alt="16" /></li>
+  	</ul>
+  </div>
+<!-- fade-container ENDE -->
+
+<script src="js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.innerfade-c.js"></script>
+
+ <script>
+    $(document).ready(function(){
+     // startet den fade-container
+		$('ul#portfolio').innerfade({
+	     // speed: 1200,
+		//  timeout: 8000,
+		//  type: 'sequence',
+	 // WICHTIG container-hoehe an die bildgroesse anpassen !
+		  containerheight: '516px'
+
+		});
+      });
+ </script>
+
+ <script type="text/javascript">
+ // Umschaltung - deutsch - english
+ jQuery(function(){
+ 		 $(".img-swap").live('click', function() {
+ 		 	if ($(this).attr("class") == "img-swap") {
+ 			this.src = this.src.replace("_off","_on");
+ 	// header-div-umschalten
+ 	//    alert("TEST_xemaroo_click_event");
+ 	jQuery('#top_message').fadeOut('slow');
+ 	jQuery('#top_message_e').fadeIn('slow');
+ 	jQuery('#top_maincenter').fadeOut('slow');
+ 	jQuery('#top_maincenter_e').fadeIn('slow');
+ 			} else {
+ 			this.src = this.src.replace("_on","_off");
+ 	 	// header-div-umschalten
+ 	jQuery('#top_message_e').fadeOut('slow');
+ 	jQuery('#top_message').fadeIn('slow');
+  	jQuery('#top_maincenter_e').fadeOut('slow');
+  	jQuery('#top_maincenter').fadeIn('slow');
+ 			}
+ 			$(this).toggleClass("on");
+ 		});
+ });
+</script>
+
+<script type="text/javascript">
+ // Umschaltung - produkt - konzept - label [für produkt]
+ jQuery(function(){
+ 		 $(".img-swap2").live('click', function() {
+ 	//  alert("TEST_xemaroo_click_event");
+ 		 	if ($(this).attr("class") == "img-swap2") {
+ 	//		this.src = this.src.replace("_off","_on");
+ 	// header-div-umschalten
+ 	//    alert("TEST_xemaroo_click_event");
+ 	jQuery('#homenews .top_li1').fadeOut('slow');
+ 	jQuery('#homenews .top_li2').fadeOut('slow');
+ 	jQuery('#homenews .top_li').fadeIn('slow');
+ 			}
+ //			$(this).toggleClass("on");
+ 		});
+ });
+</script>
+
+<script type="text/javascript">
+ // Umschaltung - produkt - konzept - label [für konzept]
+ jQuery(function(){
+ 		 $(".img-swap3").live('click', function() {
+ 	//  alert("TEST_xemaroo_click_event");
+ 		 	if ($(this).attr("class") == "img-swap3") {
+ 	//		this.src = this.src.replace("_off","_on");
+ 	// header-div-umschalten
+ 	//    alert("TEST_xemaroo_click_event");
+ 	jQuery('#homenews .top_li').fadeOut('slow');
+ 	jQuery('#homenews .top_li1').fadeOut('slow');
+ 	jQuery('#homenews .top_li2').fadeIn('slow');
+
+ 			}
+ //			$(this).toggleClass("on");
+ 		});
+ });
+</script>
+
+<script type="text/javascript">
+ // Umschaltung - produkt - konzept - label [für label]
+ jQuery(function(){
+ 		 $(".img-swap4").live('click', function() {
+ 	//  alert("TEST_xemaroo_click_event");
+ 		 	if ($(this).attr("class") == "img-swap4") {
+ 	//		this.src = this.src.replace("_off","_on");
+ 	// header-div-umschalten
+ 	//    alert("TEST_xemaroo_click_event");
+ 	jQuery('#homenews .top_li').fadeOut('slow');
+ 	jQuery('#homenews .top_li2').fadeOut('slow');
+ 	jQuery('#homenews .top_li1').fadeIn('slow');
+ 			}
+ //			$(this).toggleClass("on");
+ 		});
+ });
+</script>
+
+
+
+<style>
+.img-swap {cursor: pointer;}
+.img-swap2 {cursor: pointer;}
+.img-swap3 {cursor: pointer;}
+.img-swap4 {cursor: pointer;}
+</style>
+
+
+</div>
+<div id="top_mainheader">
+<div id="top_message">
+<p class="fm"><strong>x &nbsp;&nbsp; e &nbsp;&nbsp; m &nbsp;&nbsp; a &nbsp;&nbsp; r &nbsp;&nbsp; o &nbsp;&nbsp; o</strong></p>
+<p class="fm">sphere object + mobile<br>
+eine elektrisierende, unsentimentale Mischung aus High Tech und Handarbeit</p>
+<p class="fm"></p>
+<hr>
+</div>
+<div id="top_message_e" style="display: none;">
+<p class="fm"><strong>x &nbsp;&nbsp; e &nbsp;&nbsp; m &nbsp;&nbsp; a &nbsp;&nbsp; r &nbsp;&nbsp; o &nbsp;&nbsp; o</strong></p>
+<p class="fm">sphere object + mobile<br>
+an electrifying, unsentimental mix of high tech and craftsmanship</p>
+<p class="fm"></p>
+<hr>
+</div>
+</div>
+<div id="top_main">
+<div id="top_mainleft">
+
+<img src="image/NEW_shop_banner.png" width="200" height="89" class="banner"><br>
+
+
+
+<div id="more">
+<ul>
+<li><a href="http://www.xemaroo.de" onfocus="this.blur()"><span>More...</span></a></li>
+</ul>
+</div>
+
+</div>
+
+<div id="top_maincenter">
+<img src="image/menu_produkt.gif" class="img-swap2" alt="produkt" width="125" height="15">
+<img src="image/menu_konzept.gif" class="img-swap3" alt="konzept" width="108" height="15">
+<img src="image/menu_label.gif" class="img-swap4" alt="label" width="85" height="15">
+<div id="homenews">
+<ul class="top_ul">
+<li class="top_li">
+<br>
+<h3>das Produkt</h3>
+Raumaccessoires. Die zu Kugeln verbundenen Steck-Gef&uuml;ge kann man
+einzeln kaufen oder zu gro&szlig;z&uuml;gigen, schwebenden Systemen
+kombiniert. Bewegung und Licht sind die entscheidenden Mitspieler bei
+diesen geometrischen Kompositionen. Die bunten Kunststoffelemente der
+sphere objects + mobile sind zu offenen, durchl&auml;ssigen Clustern
+verschr&auml;nkt. Schon ein leichter Luftzug gen&uuml;gt, um sie auf
+eine Reise durch den Raum zu schicken. Die durchscheinende
+Beschaffenheit des Materials bringt die eigenwillig-psychodelischen
+Farbzusammenstellungen der Kugeln zum Leuchten. Sph&auml;rische Science
+Fiction-&Auml;sthetik, Mikrobiologie oder die Op- und Pop Art der
+1960er Jahre - jede Assoziation ist zugelassen.
+<br><br>
+Der Hersteller ist das Label xemaroo. Der Werkstoff: ein 100% recycelbares
+<a href="http://de.wikipedia.org/wiki/Polycarbonate" target="_blank">Polycarbonat</a>.
+sphere objects + mobile werden am Computer entworfen.
+Danach sind die Einzelteile industriell zugeschnitten, mattiert und
+schlie&szlig;lich von Hand koloriert und zusammengef&uuml;gt.<br><br>
+</li>
+<li class="top_li2">
+<br>
+<h3>das Konzept</h3>
+sphere objects + mobile werden f&uuml;r das Label xemaroo von
+<a href="http://www.svenja-john.de" target="_blank">Svenja John</a>
+designt und produziert. Das spielerische, endlos variierbare Stecksystem aus
+Markrofol importierte sie dabei aus ihren erfolgreichen Schmuckkollektionen.
+Der Computer als Entwurfslabor, die Nutzung industrieller Fertigungsmethoden
+bei der Produktion und die manuelle Handhabung was die Colorierung betrifft,
+ergibt&nbsp; bei xemaroo eine elektrisierende, unsentimentale Mischung aus
+High Tech und Handarbeit.<br><br>
+</li>
+<li class="top_li3">
+<br>
+<h3>das Label</h3>
+xemaroo interessiert sich f&uuml;r die emotionale Qualit&auml;t der
+Produkte: &Auml;sthetik als Nutzwert. Das ist eine Forderung und ein Statement.
+&nbsp;xemaroo begreift und benennt Sch&ouml;nheit als essentiell im menschlichen Alltag:
+Eine (&uuml;ber-) lebensnotwendige Ressource, die allen offen steht und die sich als
+unersch&ouml;pflich erweist, wenn Gestaltungskraft, Bewusstsein und Verantwortung
+zusammen kommen. An der Schwelle zwischen Kunst und Design produziert xemaroo,
+energieeffizient und umweltschonend, Objekte von h&ouml;chstem Anspruch. Das
+G&uuml;tesiegel &quot;Made in Germany&quot; wird garantiert, vom Entwurf &uuml;ber die
+Herstellung bis zum letzten Gestaltungsschritt.<br><br>
+</li>
+<br>
+
+</ul>
+</div>
+
+</div>
+
+
+<div id="top_maincenter_e" style="display: none;">
+<img src="image/menu_product_e.gif" class="img-swap2" alt="product" width="121" height="15">
+<img src="image/menu_concept_e.gif" class="img-swap3" alt="concept" width="111" height="15">
+<img src="image/menu_label_e.gif" class="img-swap4" alt="label" width="86" height="15">
+<div id="homenews">
+<ul class="top_ul">
+<li class="top_li">
+<br>
+<h3>the product</h3>
+sphere objects + mobile are intelligent, futuristic room
+accessories.
+The plug-structure related balls you can buy individually or combine
+to large, floating systems.
+Movement and light are the key players in these geometric
+compositions. The colourful plastic elements of the sphere objects +
+mobile are entangled to open, permeable clusters. Even a slight
+breeze is enough to send them on a journey through space. The
+translucent nature of the material causes the strong-willed,
+psychedelic colour combinations brings the balls to glow. Spherical
+science-fiction aesthetics, microbiology or the Op- and Pop Art of
+the 1960s - every Association is possible.
+<br><br>
+The manufacturer is the label xemaroo. The material: a 100%
+recyclable <a href="http://en.wikipedia.org/wiki/Polycarbonate" target="_blank">polycarbonat</a>.
+sphere objects + mobile are created on the
+computer. Then the items are cut industrially, frosted and finally
+coloured by hand and joined together.
+<br><br>
+</li>
+<li class="top_li2">
+<br>
+<h3>the concept</h3>
+ sphere objects + mobile are designed&nbsp; and produced for the
+label of xemaroo by
+<a href="http://www.svenja-john.de" target="_blank">Svenja John</a>
+The playful, endlessly variable
+connecting system from Markrofol she adopted from her successful
+jewellery collections. The computer as a design laboratory, the use
+of industrial production methods in the production and manual
+handling as far as the colouring is in xemaroo an electrifying,
+unsentimental mix of high technology and craftsmanship.<br><br>
+</li>
+<li class="top_li3">
+<br>
+<h3>the label</h3>
+xemaroo is interested in the emotional quality of the products:
+aesthetics as an utility. This is a demand and a statement.<br>
+xemaroo understands and identifies beauty as an essential in
+human life:
+An (over-) essential resource that is open to everyone and is
+proving to be inexhaustible, when designing power, confidence and
+responsibility come together.<br>
+At the threshold between art and design produces xemaroo, energy
+efficient and environmentally friendly properties with the highest
+standards. The quality seal "Made in Germany" is guaranteed, from
+design and manufacture through to the final design step.<br><br>
+</li>
+</ul>
+</div>
+
+
+</div>
+<div id="top_mainright">
+<img src="image/xemaroo_logo.png" alt="xemaroo banner" width="200" height="40" class="banner"><br>
+<a href="mailto:svenja_john@hotmail.com"><img  class="banner" src="image/mail.png"  width="200" height="40" border="0"></a>
+
+<div id="lang_trans">
+<img src="image/trans_off.png" class="img-swap" />
+</div>
+
+</div>
+
+</div>
+<div id="top_mainbottom"></div>
+</div>
+<div id="top_bottom">
+<p class="copy"><strong class="coryEn">impressum: &nbsp; c/o svenja john &nbsp; schlesische str. 28 &nbsp; 10997 berlin &nbsp; germany &nbsp; fon: ++49 30 61280663 &nbsp; Ust-ID Nummer: DE 167432649</strong></p>
+</div>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-585954-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

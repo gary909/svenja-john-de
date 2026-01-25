@@ -81,7 +81,7 @@ body {
   padding: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
   /* MENU schriftgroesse */
-  font-size: 7px;
+  font-size: 12px;
   line-height: 0.9em;
   background: #1F1E1D;
   color: #FFF;
@@ -120,13 +120,13 @@ a,
 a code {
   /* "OPTIONS-menu" schriftgroesse */
   font-size: 12px;
-  color: #FB4;
+  color: #FFF;
   text-decoration: none;
 }
 
 a:hover,
 a:hover code { 
-  color: #4BF; 
+  color: #bac097; 
 }
 
 a:active,
@@ -705,7 +705,7 @@ footer {
   /* ### LINKS in den NEWs */
 #super-list4 li a {
   color: #000;
-  background: #737300; color: white;
+  background: #60605A; color: white;
 }
 #super-list4 li.doc  a { background: #DCC4D2; }
 #super-list4 li.demo a { background: #B0A27C; }
@@ -713,6 +713,7 @@ footer {
 
 #super-list4 li a:hover {
   background: darkgrey;
+  color: #3f4646
 }
 
 #super-list4 li.link a:hover { color: #222; }
@@ -740,7 +741,7 @@ footer {
 
 /**** textBox ****/
 
-#textBox, #vitaBox, #newsBox, #iBox {
+#textBox, #vitaBox, #newsBox, #iBox, #cBox, #pBox {
   max-width: 340px;
   font-size: 12px;
   line-height: 1.2em;
@@ -800,41 +801,6 @@ footer {
   color: red;
 }
 
-
-
-/* *********NEW FOR MOBILE ********** 2026 */
-/* Mobile Styles (Devices 768px and smaller) */
-@media only screen and (max-width: 768px) {
-  body {
-    padding: 10px;
-    font-size: 14px; /* Increases readability on small screens */
-  }
-
-  h1 {
-    font-size: 16px; /* Adjusts logo size */
-    text-align: center;
-    margin-right: 0;
-  }
-
-  #options {
-    float: none; /* Centers the language/layout options */
-    text-align: center;
-    margin-right: 0;
-    display: flex;
-    justify-content: center;
-  }
-
-  .flux-body {
-    height: auto !important; /* Allows gallery sections to grow vertically */
-    margin: 10px 0;
-  }
-
-  #iBox {
-    max-width: 100%; /* Ensures the footer text fits the screen */
-    padding: 10px;
-  }
-}
-/* *********END FOR MOBILE ********** 2026 */
 
 
 /* >> The Magnificent CLEARFIX: Updated to prevent margin-collapsing on child elements << j.mp/bestclearfix */

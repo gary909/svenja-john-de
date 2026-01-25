@@ -1,0 +1,142 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta xmlns="http://www.w3.org/1999/xhtml" http-equiv="content-language" content="de"></meta><meta xmlns="http://www.w3.org/1999/xhtml" http-equiv="cache-control" content="no-cache"></meta><meta xmlns="http://www.w3.org/1999/xhtml" http-equiv="pragma" content="no-cache"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="title" content="Feedback"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="description" content="TINCAS basierte CGI-Schnittstelle"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="keywords" lang="de" content="CGI, Gästebuch, Counter, Forum, TINC, TINCAS"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="keywords" lang="en" content="CGI, Guestbook, Counter, Forum, TINC, TINCAS"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="keywords" lang="fr" content="CGI, Formulaire de réponse, Compteur, Forum, TINC, TINCAS"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="author" content="1&amp;1 Internet AG"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="copyright" content="1&amp;1 Internet AG"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="publisher" content="1&amp;1 Internet AG"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="robots" content="noindex"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="DC.Format" content="text/html, charset=utf-8"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="DC.Language" content="de"></meta><title>Feedback</title><style xmlns:js="http://www.schlund.de/tinc/runtimexsl/js" type="text/css">
+			body {
+				margin:15px 10px 20px;
+			}
+
+			h2 {
+				text-decoration:underline;
+				/*font-size:16px;*/
+				font-size:133%;
+			}
+
+			h3 {
+				/*font-size:14px*/
+				font-size:116%;
+			}
+
+			input {
+				/*font-size:11px;*/
+				font-size:95%;
+			}
+
+			/* not found */
+			/*.gross {
+				font-size:16px
+			}*/
+			/* found in messageboard.xsl. formatting of links in entryhandle and entrymenu templates.
+			formatting of submitted fields in guest/moderator html mails (template entry).
+			formatting of user name and submission date of an entry in layout mode 2.
+			formatting of response type message in templates preview and updateform*/
+			.klein {
+				font-size:90%;
+				/*font-size:10px*/
+			}
+			/* found in messageboard.xsl. formatting of | chars in template entryhandle.
+			formatting of entry subject (template entry) in layout mode 2*/
+			.mittel {
+				font-size:116%;
+				/*font-size:14px;*/
+			}
+			/* found in messageboard.xsl. formatting entryhandle and entrymenu template contents */
+			.rechts {
+				text-align:right
+			}
+			/* found in messageboard.xsl. formatting entry number */
+			.riesig {
+				/*font-size:20px;*/
+				font-size:166%;
+			}
+
+			/* not found */
+			/*.noline {
+				text-decoration: none
+			}*/
+
+			.admin {
+				margin:0 4px;
+			}
+
+			.warn {
+				color:#000000;
+				font-weight:bold;
+			}
+		</style><style xmlns:js="http://www.schlund.de/tinc/runtimexsl/js" type="text/css">
+			body,table,tr,td,li,a {
+				color:#FFFFFF;
+				font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;;
+				font-size:12px;
+			}
+
+
+
+			body, table, td, .bgnorm {
+				background-color:#776136
+			}
+
+			/* found in messageboard.xsl and feedback.xsl */
+			.invert {
+				background-color:#FFFFFF;
+				color:#776136
+			}
+
+			input,textarea {
+				border:0px none #776136;
+				color:#383838;
+				scrollbar-base-color:#776136;
+				scrollbar-shadow-color:#383838;
+				scrollbar-darkshadow-color:#776136;
+				scrollbar-track-color:#776136;
+				scrollbar-3dlight-color:#776136;
+				scrollbar-face-color:#776136;
+				scrollbar-highlight-color:#776136;
+				scrollbar-arrow-color:#383838
+			}
+
+			/* found in messageboard.xsl and feedback.xsl */
+			.high,input,textarea {
+				background-color:#FFFFFF
+			}
+
+			/* found in messageboard.xsl and feedback.xsl. styling of input fields in case of
+			wrong/missing input.*/
+			.warn {
+				background-color:#F71F1F
+			}
+
+			/* found in messageboard.xsl. formatting of admin link texts in template entryhandle. */
+			.admin {
+				color:#F71F1F;
+			}
+
+			/* found in messageboard.xsl and feedback.xsl. border around table components.*/
+			.dborder {
+				border:1px dotted #383838;
+				padding:2px 2px 2px 2px;
+			}
+
+			/* found in messageboard.xsl, feedback.xsl and counter.xsl. submit buttons. */
+			.button {
+				border:1px solid #383838;
+			}
+
+			/* found in messageboard.xsl. formatting of header for guest html reply mail (template entry).
+			formatting of entry body (both modes) (template entry).
+			found in feedback.xsl. formatting of header for reply mail.*/
+			.message {
+				border-bottom:1px solid #ECECEC;
+				border-left:1px solid #ECECEC;
+				/*line-height:18px;*/
+				line-height:150%;
+				padding:3px 3px 3px 3px
+			}
+		</style><script xmlns:js="http://www.schlund.de/tinc/runtimexsl/js">
+		try {
+  			if (window.parent.parent.CSSInject) {
+				var listLength = window.parent.parent.CSSInject.length;
+				for(var i=0; i<listLength; i++){
+					var cssInjectUrl = window.parent.parent.CSSInject[i];
+					document.writeln("<style type='text/css'>@import url("+cssInjectUrl+");</style>");
+				};
+  			}
+		} catch (ex) {};
+	</script></head><body><div id="tinc_content"><center><h2 xmlns="http://www.w3.org/1999/xhtml">email to xemaroo</h2><table xmlns="http://www.w3.org/1999/xhtml" class="dborder" width="95%"><tr><td colspan="2" class="invert"><b>Bitte geben Sie Ihre Daten ein:</b></td></tr><form method="post" accept-charset="utf-8" action="http://svenja-john.de/tinc"><tr><td colspan="2"><table width="100%" cellspacing="0" cellpadding="1"><colgroup><col width="14%"></col><col width="35%"></col><col width="2%"></col><col width="14%"></col><col width="35%"></col></colgroup><tr height="2"><td colspan="2" height="2"></td></tr><tr><td><b>Name:</b></td><td><input type="text" name="name" size="30" style="width: 100%" value=""></input></td></tr><tr><td><b>E-Mail:</b></td><td><input type="text" name="email" size="30" style="width: 100%" value=""></input></td><td width="2%"> </td></tr><tr></tr><tr></tr><tr><td valign="top"><b>Kommentar:</b></td><td colspan="4"><textarea cols="50" rows="10" name="comment" style="width: 100%"></textarea></td></tr><tr><td> </td><td colspan="5"><input class="button" type="submit" value="Abschicken"></input></td></tr></table></td></tr><tr><td width="80"> </td><td></td></tr><input type="hidden" name="key" value="0giZUhRo"></input><tr><td class="invert" colspan="2" align="center"><a class="invert" href="http://www.xemaroo.com">Zurück zur Homepage</a></td></tr></form></table></center></div></body></html>

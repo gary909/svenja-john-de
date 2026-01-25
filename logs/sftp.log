@@ -1,0 +1,1052 @@
+Jan 21 16:18:42 10.71.57.0 3128-540 Connection from 10.71.57.0 port 17360 on 82.165.82.76 port 22 rdomain ""
+Jan 21 16:18:42 10.71.57.0 3128-540 Accepted password for 3128-540 from 10.71.57.0 port 17360 ssh2
+Jan 21 16:18:42 10.71.57.0 3128-540 Starting session: subsystem 'sftp' for 3128-540 from 10.71.57.0 port 17360 id 0
+Jan 21 16:18:42 10.71.57.0 3128-540 session opened for local user 3128-540 from [10.71.57.0]
+Jan 21 16:22:28 10.71.57.0 3128-540 Connection from 10.71.57.0 port 18912 on 82.165.82.76 port 22 rdomain ""
+Jan 21 16:22:29 10.71.57.0 3128-540 Accepted password for 3128-540 from 10.71.57.0 port 18912 ssh2
+Jan 21 16:22:28 10.71.57.0 3128-540 Connection from 10.71.57.0 port 18914 on 82.165.82.76 port 22 rdomain ""
+Jan 21 16:22:29 10.71.57.0 3128-540 Accepted password for 3128-540 from 10.71.57.0 port 18914 ssh2
+Jan 21 16:22:29 10.71.57.0 3128-540 Starting session: subsystem 'sftp' for 3128-540 from 10.71.57.0 port 18912 id 0
+Jan 21 16:22:29 10.71.57.0 3128-540 Starting session: subsystem 'sftp' for 3128-540 from 10.71.57.0 port 18914 id 0
+Jan 21 16:22:29 10.71.57.0 3128-540 session opened for local user 3128-540 from [10.71.57.0]
+Jan 21 16:22:29 10.71.57.0 3128-540 session opened for local user 3128-540 from [10.71.57.0]
+Jan 21 16:22:29 10.71.57.0 3128-540 open "/favicon.ico" flags READ mode 0666
+Jan 21 16:22:29 10.71.57.0 3128-540 open "/index.html" flags READ mode 0666
+Jan 21 16:22:29 10.71.57.0 3128-540 close "/favicon.ico" bytes read 1406 written 0
+Jan 21 16:22:29 10.71.57.0 3128-540 [10.71.57.0|get|0|1406|0|0|0|2f66617669636f6e2e69636f|]
+Jan 21 16:22:29 10.71.57.0 3128-540 open "/noscript.png" flags READ mode 0666
+Jan 21 16:22:29 10.71.57.0 3128-540 close "/index.html" bytes read 157470 written 0
+Jan 21 16:22:29 10.71.57.0 3128-540 [10.71.57.0|get|0|157470|0|0|0|2f696e6465782e68746d6c|]
+Jan 21 16:22:29 10.71.57.0 3128-540 close "/noscript.png" bytes read 2595 written 0
+Jan 21 16:22:29 10.71.57.0 3128-540 [10.71.57.0|get|0|2595|0|0|0|2f6e6f7363726970742e706e67|]
+Jan 21 16:22:29 10.71.57.0 3128-540 open "/robots.txt" flags READ mode 0666
+Jan 21 16:22:29 10.71.57.0 3128-540 Connection closed by 10.71.57.0 port 18912
+Jan 21 16:22:29 10.71.57.0 3128-540 session closed for local user 3128-540 from [10.71.57.0]
+Jan 21 16:22:29 10.71.57.0 3128-540 close "/robots.txt" bytes read 297 written 0
+Jan 21 16:22:29 10.71.57.0 3128-540 [10.71.57.0|get|0|297|0|0|0|2f726f626f74732e747874|]
+Jan 21 16:22:29 10.71.57.0 3128-540 Connection closed by 10.71.57.0 port 18914
+Jan 21 16:22:29 10.71.57.0 3128-540 session closed for local user 3128-540 from [10.71.57.0]
+Jan 21 16:22:30 10.71.57.0 3128-540 Connection from 10.71.57.0 port 18926 on 82.165.82.76 port 22 rdomain ""
+Jan 21 16:22:30 10.71.57.0 3128-540 Accepted password for 3128-540 from 10.71.57.0 port 18926 ssh2
+Jan 21 16:22:30 10.71.57.0 3128-540 Starting session: subsystem 'sftp' for 3128-540 from 10.71.57.0 port 18926 id 0
+Jan 21 16:22:30 10.71.57.0 3128-540 Connection from 10.71.57.0 port 18930 on 82.165.82.76 port 22 rdomain ""
+Jan 21 16:22:30 10.71.57.0 3128-540 Accepted password for 3128-540 from 10.71.57.0 port 18930 ssh2
+Jan 21 16:22:30 10.71.57.0 3128-540 session opened for local user 3128-540 from [10.71.57.0]
+Jan 21 16:22:30 10.71.57.0 3128-540 Starting session: subsystem 'sftp' for 3128-540 from 10.71.57.0 port 18930 id 0
+Jan 21 16:22:30 10.71.57.0 3128-540 session opened for local user 3128-540 from [10.71.57.0]
+Jan 21 16:22:30 10.71.57.0 3128-540 open "/css/sams_style.css" flags READ mode 0666
+Jan 21 16:22:30 10.71.57.0 3128-540 open "/css/jq_fade.css" flags READ mode 0666
+Jan 21 16:22:30 10.71.57.0 3128-540 close "/css/sams_style.css" bytes read 16277 written 0
+Jan 21 16:22:30 10.71.57.0 3128-540 [10.71.57.0|get|0|16277|0|0|0|2f6373732f73616d735f7374796c652e637373|]
+Jan 21 16:22:30 10.71.57.0 3128-540 close "/css/jq_fade.css" bytes read 286 written 0
+Jan 21 16:22:30 10.71.57.0 3128-540 [10.71.57.0|get|0|286|0|0|0|2f6373732f6a715f666164652e637373|]
+Jan 21 16:22:30 10.71.57.0 3128-540 open "/download/fazmagazin_10.pdf" flags READ mode 0666
+Jan 21 16:22:31 10.71.57.0 3128-540 open "/download/flyer_einladung.pdf" flags READ mode 0666
+Jan 21 16:22:31 10.71.57.0 3128-540 close "/download/fazmagazin_10.pdf" bytes read 378310 written 0
+Jan 21 16:22:31 10.71.57.0 3128-540 [10.71.57.0|get|1|378310|0|0|0|2f646f776e6c6f61642f66617a6d6167617a696e5f31302e706466|]
+Jan 21 16:22:31 10.71.57.0 3128-540 open "/download/beautiful_mind_faltblatt.pdf" flags READ mode 0666
+Jan 21 16:22:31 10.71.57.0 3128-540 close "/download/flyer_einladung.pdf" bytes read 853072 written 0
+Jan 21 16:22:31 10.71.57.0 3128-540 [10.71.57.0|get|0|853072|0|0|0|2f646f776e6c6f61642f666c7965725f65696e6c6164756e672e706466|]
+Jan 21 16:22:32 10.71.57.0 3128-540 open "/download/announcement.svenja.john.pdf" flags READ mode 0666
+Jan 21 16:22:32 10.71.57.0 3128-540 close "/download/announcement.svenja.john.pdf" bytes read 207104 written 0
+Jan 21 16:22:32 10.71.57.0 3128-540 [10.71.57.0|get|0|207104|0|0|0|2f646f776e6c6f61642f616e6e6f756e63656d656e742e7376656e6a612e6a6f686e2e706466|]
+Jan 21 16:22:32 10.71.57.0 3128-540 close "/download/beautiful_mind_faltblatt.pdf" bytes read 1284454 written 0
+Jan 21 16:22:32 10.71.57.0 3128-540 [10.71.57.0|get|1|1284454|0|0|0|2f646f776e6c6f61642f62656175746966756c5f6d696e645f66616c74626c6174742e706466|]
+Jan 21 16:22:32 10.71.57.0 3128-540 open "/download/VENEDIG_invitation_web.pdf" flags READ mode 0666
+Jan 21 16:22:32 10.71.57.0 3128-540 open "/download/Einladung_Future_Form.pdf" flags READ mode 0666
+Jan 21 16:22:33 10.71.57.0 3128-540 close "/download/VENEDIG_invitation_web.pdf" bytes read 219448 written 0
+Jan 21 16:22:33 10.71.57.0 3128-540 [10.71.57.0|get|1|219448|0|0|0|2f646f776e6c6f61642f56454e454449475f696e7669746174696f6e5f7765622e706466|]
+Jan 21 16:22:33 10.71.57.0 3128-540 open "/download/EINLADUNG_gbbb_web.pdf" flags READ mode 0666
+Jan 21 16:22:33 10.71.57.0 3128-540 close "/download/EINLADUNG_gbbb_web.pdf" bytes read 74106 written 0
+Jan 21 16:22:33 10.71.57.0 3128-540 [10.71.57.0|get|0|74106|0|0|0|2f646f776e6c6f61642f45494e4c4144554e475f676262625f7765622e706466|]
+Jan 21 16:22:34 10.71.57.0 3128-540 open "/download/EINLADUNG_SJ_galerie_biro_2015.pdf" flags READ mode 0666
+Jan 21 16:22:34 10.71.57.0 3128-540 close "/download/Einladung_Future_Form.pdf" bytes read 1606985 written 0
+Jan 21 16:22:34 10.71.57.0 3128-540 [10.71.57.0|get|2|1606985|0|0|0|2f646f776e6c6f61642f45696e6c6164756e675f4675747572655f466f726d2e706466|]
+Jan 21 16:22:34 10.71.57.0 3128-540 open "/download/Art_Aurea_2-2014_Svenja_John.pdf" flags READ mode 0666
+Jan 21 16:22:34 10.71.57.0 3128-540 close "/download/EINLADUNG_SJ_galerie_biro_2015.pdf" bytes read 80717 written 0
+Jan 21 16:22:34 10.71.57.0 3128-540 [10.71.57.0|get|0|80717|0|0|0|2f646f776e6c6f61642f45494e4c4144554e475f534a5f67616c657269655f6269726f5f323031352e706466|]
+Jan 21 16:22:34 10.71.57.0 3128-540 open "/flux/flux.js" flags READ mode 0666
+Jan 21 16:22:34 10.71.57.0 3128-540 close "/flux/flux.js" bytes read 49019 written 0
+Jan 21 16:22:34 10.71.57.0 3128-540 [10.71.57.0|get|0|49019|0|0|0|2f666c75782f666c75782e6a73|]
+Jan 21 16:22:34 10.71.57.0 3128-540 close "/download/Art_Aurea_2-2014_Svenja_John.pdf" bytes read 751498 written 0
+Jan 21 16:22:34 10.71.57.0 3128-540 [10.71.57.0|get|0|751498|0|0|0|2f646f776e6c6f61642f4172745f41757265615f322d323031345f5376656e6a615f4a6f686e2e706466|]
+Jan 21 16:22:34 10.71.57.0 3128-540 open "/flux/flux.css" flags READ mode 0666
+Jan 21 16:22:34 10.71.57.0 3128-540 close "/flux/flux.css" bytes read 16113 written 0
+Jan 21 16:22:34 10.71.57.0 3128-540 [10.71.57.0|get|0|16113|0|0|0|2f666c75782f666c75782e637373|]
+Jan 21 16:22:35 10.71.57.0 3128-540 open "/flux/flux.config.js" flags READ mode 0666
+Jan 21 16:22:35 10.71.57.0 3128-540 open "/flux/flux-ie6.css" flags READ mode 0666
+Jan 21 16:22:35 10.71.57.0 3128-540 close "/flux/flux.config.js" bytes read 984 written 0
+Jan 21 16:22:35 10.71.57.0 3128-540 [10.71.57.0|get|0|984|0|0|0|2f666c75782f666c75782e636f6e6669672e6a73|]
+Jan 21 16:22:35 10.71.57.0 3128-540 close "/flux/flux-ie6.css" bytes read 2106 written 0
+Jan 21 16:22:35 10.71.57.0 3128-540 [10.71.57.0|get|0|2106|0|0|0|2f666c75782f666c75782d6965362e637373|]
+Jan 21 16:22:35 10.71.57.0 3128-540 open "/flux/flux-full.js" flags READ mode 0666
+Jan 21 16:22:35 10.71.57.0 3128-540 open "/flux/graphics/zoomout.cur" flags READ mode 0666
+Jan 21 16:22:35 10.71.57.0 3128-540 close "/flux/flux-full.js" bytes read 93332 written 0
+Jan 21 16:22:35 10.71.57.0 3128-540 [10.71.57.0|get|0|93332|0|0|0|2f666c75782f666c75782d66756c6c2e6a73|]
+Jan 21 16:22:35 10.71.57.0 3128-540 close "/flux/graphics/zoomout.cur" bytes read 326 written 0
+Jan 21 16:22:35 10.71.57.0 3128-540 [10.71.57.0|get|0|326|0|0|0|2f666c75782f67726170686963732f7a6f6f6d6f75742e637572|]
+Jan 21 16:22:35 10.71.57.0 3128-540 open "/flux/graphics/scrollarrows.png" flags READ mode 0666
+Jan 21 16:22:35 10.71.57.0 3128-540 open "/flux/graphics/zoomin.cur" flags READ mode 0666
+Jan 21 16:22:35 10.71.57.0 3128-540 close "/flux/graphics/scrollarrows.png" bytes read 6463 written 0
+Jan 21 16:22:35 10.71.57.0 3128-540 [10.71.57.0|get|0|6463|0|0|0|2f666c75782f67726170686963732f7363726f6c6c6172726f77732e706e67|]
+Jan 21 16:22:35 10.71.57.0 3128-540 close "/flux/graphics/zoomin.cur" bytes read 326 written 0
+Jan 21 16:22:35 10.71.57.0 3128-540 [10.71.57.0|get|0|326|0|0|0|2f666c75782f67726170686963732f7a6f6f6d696e2e637572|]
+Jan 21 16:22:35 10.71.57.0 3128-540 open "/flux/graphics/resize.gif" flags READ mode 0666
+Jan 21 16:22:35 10.71.57.0 3128-540 open "/flux/graphics/loader.white.gif" flags READ mode 0666
+Jan 21 16:22:35 10.71.57.0 3128-540 close "/flux/graphics/resize.gif" bytes read 70 written 0
+Jan 21 16:22:35 10.71.57.0 3128-540 [10.71.57.0|get|0|70|0|0|0|2f666c75782f67726170686963732f726573697a652e676966|]
+Jan 21 16:22:35 10.71.57.0 3128-540 close "/flux/graphics/loader.white.gif" bytes read 673 written 0
+Jan 21 16:22:35 10.71.57.0 3128-540 [10.71.57.0|get|0|673|0|0|0|2f666c75782f67726170686963732f6c6f616465722e77686974652e676966|]
+Jan 21 16:22:36 10.71.57.0 3128-540 open "/flux/graphics/loader.gif" flags READ mode 0666
+Jan 21 16:22:36 10.71.57.0 3128-540 open "/flux/graphics/icon.gif" flags READ mode 0666
+Jan 21 16:22:36 10.71.57.0 3128-540 close "/flux/graphics/loader.gif" bytes read 668 written 0
+Jan 21 16:22:36 10.71.57.0 3128-540 [10.71.57.0|get|0|668|0|0|0|2f666c75782f67726170686963732f6c6f616465722e676966|]
+Jan 21 16:22:36 10.71.57.0 3128-540 close "/flux/graphics/icon.gif" bytes read 867 written 0
+Jan 21 16:22:36 10.71.57.0 3128-540 [10.71.57.0|get|0|867|0|0|0|2f666c75782f67726170686963732f69636f6e2e676966|]
+Jan 21 16:22:36 10.71.57.0 3128-540 open "/flux/graphics/geckodimmer.png" flags READ mode 0666
+Jan 21 16:22:36 10.71.57.0 3128-540 open "/flux/graphics/controlbar4.gif" flags READ mode 0666
+Jan 21 16:22:36 10.71.57.0 3128-540 close "/flux/graphics/geckodimmer.png" bytes read 2817 written 0
+Jan 21 16:22:36 10.71.57.0 3128-540 [10.71.57.0|get|0|2817|0|0|0|2f666c75782f67726170686963732f6765636b6f64696d6d65722e706e67|]
+Jan 21 16:22:36 10.71.57.0 3128-540 close "/flux/graphics/controlbar4.gif" bytes read 854 written 0
+Jan 21 16:22:36 10.71.57.0 3128-540 [10.71.57.0|get|0|854|0|0|0|2f666c75782f67726170686963732f636f6e74726f6c626172342e676966|]
+Jan 21 16:22:36 10.71.57.0 3128-540 open "/flux/graphics/controlbar4-hover.gif" flags READ mode 0666
+Jan 21 16:22:36 10.71.57.0 3128-540 open "/flux/graphics/controlbar3.gif" flags READ mode 0666
+Jan 21 16:22:36 10.71.57.0 3128-540 close "/flux/graphics/controlbar4-hover.gif" bytes read 2410 written 0
+Jan 21 16:22:36 10.71.57.0 3128-540 [10.71.57.0|get|0|2410|0|0|0|2f666c75782f67726170686963732f636f6e74726f6c626172342d686f7665722e676966|]
+Jan 21 16:22:36 10.71.57.0 3128-540 close "/flux/graphics/controlbar3.gif" bytes read 838 written 0
+Jan 21 16:22:36 10.71.57.0 3128-540 [10.71.57.0|get|0|838|0|0|0|2f666c75782f67726170686963732f636f6e74726f6c626172332e676966|]
+Jan 21 16:22:36 10.71.57.0 3128-540 open "/flux/graphics/controlbar2.gif" flags READ mode 0666
+Jan 21 16:22:36 10.71.57.0 3128-540 open "/flux/graphics/controlbar-white.gif" flags READ mode 0666
+Jan 21 16:22:36 10.71.57.0 3128-540 close "/flux/graphics/controlbar2.gif" bytes read 884 written 0
+Jan 21 16:22:36 10.71.57.0 3128-540 [10.71.57.0|get|0|884|0|0|0|2f666c75782f67726170686963732f636f6e74726f6c626172322e676966|]
+Jan 21 16:22:36 10.71.57.0 3128-540 close "/flux/graphics/controlbar-white.gif" bytes read 4999 written 0
+Jan 21 16:22:36 10.71.57.0 3128-540 [10.71.57.0|get|0|4999|0|0|0|2f666c75782f67726170686963732f636f6e74726f6c6261722d77686974652e676966|]
+Jan 21 16:22:36 10.71.57.0 3128-540 open "/flux/graphics/controlbar-white-small.gif" flags READ mode 0666
+Jan 21 16:22:36 10.71.57.0 3128-540 open "/flux/graphics/controlbar-text-buttons.png" flags READ mode 0666
+Jan 21 16:22:37 10.71.57.0 3128-540 close "/flux/graphics/controlbar-white-small.gif" bytes read 3151 written 0
+Jan 21 16:22:37 10.71.57.0 3128-540 [10.71.57.0|get|1|3151|0|0|0|2f666c75782f67726170686963732f636f6e74726f6c6261722d77686974652d736d616c6c2e676966|]
+Jan 21 16:22:37 10.71.57.0 3128-540 close "/flux/graphics/controlbar-text-buttons.png" bytes read 1223 written 0
+Jan 21 16:22:37 10.71.57.0 3128-540 [10.71.57.0|get|1|1223|0|0|0|2f666c75782f67726170686963732f636f6e74726f6c6261722d746578742d627574746f6e732e706e67|]
+Jan 21 16:22:37 10.71.57.0 3128-540 open "/flux/graphics/controlbar-black-border.gif" flags READ mode 0666
+Jan 21 16:22:37 10.71.57.0 3128-540 open "/flux/graphics/closeX.png" flags READ mode 0666
+Jan 21 16:22:37 10.71.57.0 3128-540 close "/flux/graphics/controlbar-black-border.gif" bytes read 5109 written 0
+Jan 21 16:22:37 10.71.57.0 3128-540 [10.71.57.0|get|0|5109|0|0|0|2f666c75782f67726170686963732f636f6e74726f6c6261722d626c61636b2d626f726465722e676966|]
+Jan 21 16:22:37 10.71.57.0 3128-540 close "/flux/graphics/closeX.png" bytes read 3665 written 0
+Jan 21 16:22:37 10.71.57.0 3128-540 [10.71.57.0|get|0|3665|0|0|0|2f666c75782f67726170686963732f636c6f7365582e706e67|]
+Jan 21 16:22:37 10.71.57.0 3128-540 open "/flux/graphics/close.png" flags READ mode 0666
+Jan 21 16:22:37 10.71.57.0 3128-540 open "/flux/graphics/WICHTIG_readme.txt" flags READ mode 0666
+Jan 21 16:22:37 10.71.57.0 3128-540 close "/flux/graphics/close.png" bytes read 1910 written 0
+Jan 21 16:22:37 10.71.57.0 3128-540 [10.71.57.0|get|0|1910|0|0|0|2f666c75782f67726170686963732f636c6f73652e706e67|]
+Jan 21 16:22:37 10.71.57.0 3128-540 close "/flux/graphics/WICHTIG_readme.txt" bytes read 82 written 0
+Jan 21 16:22:37 10.71.57.0 3128-540 [10.71.57.0|get|0|82|0|0|0|2f666c75782f67726170686963732f574943485449475f726561646d652e747874|]
+Jan 21 16:22:37 10.71.57.0 3128-540 open "/flux/graphics/outlines/rounded-white.png" flags READ mode 0666
+Jan 21 16:22:37 10.71.57.0 3128-540 open "/flux/graphics/outlines/rounded-black.png" flags READ mode 0666
+Jan 21 16:22:37 10.71.57.0 3128-540 close "/flux/graphics/outlines/rounded-white.png" bytes read 2050 written 0
+Jan 21 16:22:37 10.71.57.0 3128-540 [10.71.57.0|get|0|2050|0|0|0|2f666c75782f67726170686963732f6f75746c696e65732f726f756e6465642d77686974652e706e67|]
+Jan 21 16:22:37 10.71.57.0 3128-540 close "/flux/graphics/outlines/rounded-black.png" bytes read 3031 written 0
+Jan 21 16:22:37 10.71.57.0 3128-540 [10.71.57.0|get|0|3031|0|0|0|2f666c75782f67726170686963732f6f75746c696e65732f726f756e6465642d626c61636b2e706e67|]
+Jan 21 16:22:37 10.71.57.0 3128-540 open "/flux/graphics/outlines/outer-glow.png" flags READ mode 0666
+Jan 21 16:22:37 10.71.57.0 3128-540 open "/flux/graphics/outlines/glossy-dark.png" flags READ mode 0666
+Jan 21 16:22:38 10.71.57.0 3128-540 close "/flux/graphics/outlines/outer-glow.png" bytes read 3423 written 0
+Jan 21 16:22:38 10.71.57.0 3128-540 [10.71.57.0|get|1|3423|0|0|0|2f666c75782f67726170686963732f6f75746c696e65732f6f757465722d676c6f772e706e67|]
+Jan 21 16:22:38 10.71.57.0 3128-540 close "/flux/graphics/outlines/glossy-dark.png" bytes read 2793 written 0
+Jan 21 16:22:38 10.71.57.0 3128-540 [10.71.57.0|get|1|2793|0|0|0|2f666c75782f67726170686963732f6f75746c696e65732f676c6f7373792d6461726b2e706e67|]
+Jan 21 16:22:38 10.71.57.0 3128-540 open "/flux/graphics/outlines/drop-shadow.png" flags READ mode 0666
+Jan 21 16:22:38 10.71.57.0 3128-540 open "/flux/graphics/outlines/custom.png" flags READ mode 0666
+Jan 21 16:22:38 10.71.57.0 3128-540 close "/flux/graphics/outlines/drop-shadow.png" bytes read 2091 written 0
+Jan 21 16:22:38 10.71.57.0 3128-540 [10.71.57.0|get|0|2091|0|0|0|2f666c75782f67726170686963732f6f75746c696e65732f64726f702d736861646f772e706e67|]
+Jan 21 16:22:38 10.71.57.0 3128-540 close "/flux/graphics/outlines/custom.png" bytes read 10812 written 0
+Jan 21 16:22:38 10.71.57.0 3128-540 [10.71.57.0|get|0|10812|0|0|0|2f666c75782f67726170686963732f6f75746c696e65732f637573746f6d2e706e67|]
+Jan 21 16:22:38 10.71.57.0 3128-540 open "/flux/graphics/outlines/beveled.png" flags READ mode 0666
+Jan 21 16:22:38 10.71.57.0 3128-540 close "/flux/graphics/outlines/beveled.png" bytes read 1848 written 0
+Jan 21 16:22:38 10.71.57.0 3128-540 [10.71.57.0|get|0|1848|0|0|0|2f666c75782f67726170686963732f6f75746c696e65732f626576656c65642e706e67|]
+Jan 21 16:22:38 10.71.57.0 3128-540 open "/flux/work/bag/large/XOEE_bag.jpg" flags READ mode 0666
+Jan 21 16:22:38 10.71.57.0 3128-540 close "/flux/work/bag/large/XOEE_bag.jpg" bytes read 35678 written 0
+Jan 21 16:22:38 10.71.57.0 3128-540 [10.71.57.0|get|0|35678|0|0|0|2f666c75782f776f726b2f6261672f6c617267652f584f45455f6261672e6a7067|]
+Jan 21 16:22:38 10.71.57.0 3128-540 open "/flux/work/bag/large/XAO_bag.jpg" flags READ mode 0666
+Jan 21 16:22:38 10.71.57.0 3128-540 open "/flux/work/bag/large/XAO_ansicht_3.jpg" flags READ mode 0666
+Jan 21 16:22:38 10.71.57.0 3128-540 close "/flux/work/bag/large/XAO_bag.jpg" bytes read 28665 written 0
+Jan 21 16:22:38 10.71.57.0 3128-540 [10.71.57.0|get|0|28665|0|0|0|2f666c75782f776f726b2f6261672f6c617267652f58414f5f6261672e6a7067|]
+Jan 21 16:22:38 10.71.57.0 3128-540 close "/flux/work/bag/large/XAO_ansicht_3.jpg" bytes read 24272 written 0
+Jan 21 16:22:38 10.71.57.0 3128-540 [10.71.57.0|get|0|24272|0|0|0|2f666c75782f776f726b2f6261672f6c617267652f58414f5f616e73696368745f332e6a7067|]
+Jan 21 16:22:38 10.71.57.0 3128-540 open "/flux/work/bag/large/XAO_ansicht_2.jpg" flags READ mode 0666
+Jan 21 16:22:39 10.71.57.0 3128-540 open "/flux/work/bag/large/XAO_ansicht_1.jpg" flags READ mode 0666
+Jan 21 16:22:39 10.71.57.0 3128-540 close "/flux/work/bag/large/XAO_ansicht_2.jpg" bytes read 37727 written 0
+Jan 21 16:22:39 10.71.57.0 3128-540 [10.71.57.0|get|1|37727|0|0|0|2f666c75782f776f726b2f6261672f6c617267652f58414f5f616e73696368745f322e6a7067|]
+Jan 21 16:22:39 10.71.57.0 3128-540 close "/flux/work/bag/large/XAO_ansicht_1.jpg" bytes read 26501 written 0
+Jan 21 16:22:39 10.71.57.0 3128-540 [10.71.57.0|get|0|26501|0|0|0|2f666c75782f776f726b2f6261672f6c617267652f58414f5f616e73696368745f312e6a7067|]
+Jan 21 16:22:39 10.71.57.0 3128-540 open "/flux/work/bag/large/Orly_bag.jpg" flags READ mode 0666
+Jan 21 16:22:39 10.71.57.0 3128-540 open "/flux/work/bag/large/Buena_bag.jpg" flags READ mode 0666
+Jan 21 16:22:39 10.71.57.0 3128-540 close "/flux/work/bag/large/Orly_bag.jpg" bytes read 39476 written 0
+Jan 21 16:22:39 10.71.57.0 3128-540 [10.71.57.0|get|0|39476|0|0|0|2f666c75782f776f726b2f6261672f6c617267652f4f726c795f6261672e6a7067|]
+Jan 21 16:22:39 10.71.57.0 3128-540 close "/flux/work/bag/large/Buena_bag.jpg" bytes read 42350 written 0
+Jan 21 16:22:39 10.71.57.0 3128-540 [10.71.57.0|get|0|42350|0|0|0|2f666c75782f776f726b2f6261672f6c617267652f4275656e615f6261672e6a7067|]
+Jan 21 16:22:39 10.71.57.0 3128-540 open "/flux/work/bag/thumbs/XOEE_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:39 10.71.57.0 3128-540 open "/flux/work/bag/thumbs/XAO_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:39 10.71.57.0 3128-540 close "/flux/work/bag/thumbs/XOEE_thumb.jpg" bytes read 1372 written 0
+Jan 21 16:22:39 10.71.57.0 3128-540 [10.71.57.0|get|0|1372|0|0|0|2f666c75782f776f726b2f6261672f7468756d62732f584f45455f7468756d622e6a7067|]
+Jan 21 16:22:39 10.71.57.0 3128-540 close "/flux/work/bag/thumbs/XAO_thumb.jpg" bytes read 1171 written 0
+Jan 21 16:22:39 10.71.57.0 3128-540 [10.71.57.0|get|0|1171|0|0|0|2f666c75782f776f726b2f6261672f7468756d62732f58414f5f7468756d622e6a7067|]
+Jan 21 16:22:39 10.71.57.0 3128-540 open "/flux/work/bag/thumbs/Orly_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:39 10.71.57.0 3128-540 open "/flux/work/bag/thumbs/Buena_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:39 10.71.57.0 3128-540 close "/flux/work/bag/thumbs/Orly_thumb.jpg" bytes read 1325 written 0
+Jan 21 16:22:39 10.71.57.0 3128-540 [10.71.57.0|get|0|1325|0|0|0|2f666c75782f776f726b2f6261672f7468756d62732f4f726c795f7468756d622e6a7067|]
+Jan 21 16:22:39 10.71.57.0 3128-540 close "/flux/work/bag/thumbs/Buena_thumb.jpg" bytes read 1506 written 0
+Jan 21 16:22:39 10.71.57.0 3128-540 [10.71.57.0|get|0|1506|0|0|0|2f666c75782f776f726b2f6261672f7468756d62732f4275656e615f7468756d622e6a7067|]
+Jan 21 16:22:40 10.71.57.0 3128-540 open "/flux/work/brace/large/IMOLA_brace.jpg" flags READ mode 0666
+Jan 21 16:22:40 10.71.57.0 3128-540 open "/flux/work/brace/large/MINOO_brace_4.jpg" flags READ mode 0666
+Jan 21 16:22:40 10.71.57.0 3128-540 close "/flux/work/brace/large/IMOLA_brace.jpg" bytes read 55891 written 0
+Jan 21 16:22:40 10.71.57.0 3128-540 [10.71.57.0|get|0|55891|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f494d4f4c415f62726163652e6a7067|]
+Jan 21 16:22:40 10.71.57.0 3128-540 close "/flux/work/brace/large/MINOO_brace_4.jpg" bytes read 42016 written 0
+Jan 21 16:22:40 10.71.57.0 3128-540 [10.71.57.0|get|0|42016|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f4d494e4f4f5f62726163655f342e6a7067|]
+Jan 21 16:22:40 10.71.57.0 3128-540 open "/flux/work/brace/large/MINOO_brace_3.jpg" flags READ mode 0666
+Jan 21 16:22:40 10.71.57.0 3128-540 open "/flux/work/brace/large/MINOO_brace_2.jpg" flags READ mode 0666
+Jan 21 16:22:40 10.71.57.0 3128-540 close "/flux/work/brace/large/MINOO_brace_3.jpg" bytes read 53180 written 0
+Jan 21 16:22:40 10.71.57.0 3128-540 [10.71.57.0|get|0|53180|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f4d494e4f4f5f62726163655f332e6a7067|]
+Jan 21 16:22:40 10.71.57.0 3128-540 close "/flux/work/brace/large/MINOO_brace_2.jpg" bytes read 40407 written 0
+Jan 21 16:22:40 10.71.57.0 3128-540 [10.71.57.0|get|0|40407|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f4d494e4f4f5f62726163655f322e6a7067|]
+Jan 21 16:22:40 10.71.57.0 3128-540 open "/flux/work/brace/large/MINOO_brace_1.jpg" flags READ mode 0666
+Jan 21 16:22:40 10.71.57.0 3128-540 open "/flux/work/brace/large/ZAMIST_brace.jpg" flags READ mode 0666
+Jan 21 16:22:40 10.71.57.0 3128-540 close "/flux/work/brace/large/MINOO_brace_1.jpg" bytes read 45401 written 0
+Jan 21 16:22:40 10.71.57.0 3128-540 [10.71.57.0|get|0|45401|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f4d494e4f4f5f62726163655f312e6a7067|]
+Jan 21 16:22:40 10.71.57.0 3128-540 close "/flux/work/brace/large/ZAMIST_brace.jpg" bytes read 30237 written 0
+Jan 21 16:22:40 10.71.57.0 3128-540 [10.71.57.0|get|0|30237|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f5a414d4953545f62726163652e6a7067|]
+Jan 21 16:22:40 10.71.57.0 3128-540 open "/flux/work/brace/large/X_WING_brace.jpg" flags READ mode 0666
+Jan 21 16:22:40 10.71.57.0 3128-540 open "/flux/work/brace/large/Vize_arm.jpg" flags READ mode 0666
+Jan 21 16:22:41 10.71.57.0 3128-540 close "/flux/work/brace/large/X_WING_brace.jpg" bytes read 16790 written 0
+Jan 21 16:22:41 10.71.57.0 3128-540 [10.71.57.0|get|1|16790|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f585f57494e475f62726163652e6a7067|]
+Jan 21 16:22:41 10.71.57.0 3128-540 close "/flux/work/brace/large/Vize_arm.jpg" bytes read 35145 written 0
+Jan 21 16:22:41 10.71.57.0 3128-540 [10.71.57.0|get|1|35145|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f56697a655f61726d2e6a7067|]
+Jan 21 16:22:41 10.71.57.0 3128-540 open "/flux/work/brace/large/TB5_brace.jpg" flags READ mode 0666
+Jan 21 16:22:41 10.71.57.0 3128-540 open "/flux/work/brace/large/TB3_brace.jpg" flags READ mode 0666
+Jan 21 16:22:41 10.71.57.0 3128-540 close "/flux/work/brace/large/TB5_brace.jpg" bytes read 16089 written 0
+Jan 21 16:22:41 10.71.57.0 3128-540 [10.71.57.0|get|0|16089|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f5442355f62726163652e6a7067|]
+Jan 21 16:22:41 10.71.57.0 3128-540 close "/flux/work/brace/large/TB3_brace.jpg" bytes read 13410 written 0
+Jan 21 16:22:41 10.71.57.0 3128-540 [10.71.57.0|get|0|13410|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f5442335f62726163652e6a7067|]
+Jan 21 16:22:41 10.71.57.0 3128-540 open "/flux/work/brace/large/SIBIU_brace.jpg" flags READ mode 0666
+Jan 21 16:22:41 10.71.57.0 3128-540 open "/flux/work/brace/large/RUDNY_2_brace.jpg" flags READ mode 0666
+Jan 21 16:22:41 10.71.57.0 3128-540 close "/flux/work/brace/large/SIBIU_brace.jpg" bytes read 22413 written 0
+Jan 21 16:22:41 10.71.57.0 3128-540 [10.71.57.0|get|0|22413|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f53494249555f62726163652e6a7067|]
+Jan 21 16:22:41 10.71.57.0 3128-540 close "/flux/work/brace/large/RUDNY_2_brace.jpg" bytes read 25262 written 0
+Jan 21 16:22:41 10.71.57.0 3128-540 [10.71.57.0|get|0|25262|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f5255444e595f325f62726163652e6a7067|]
+Jan 21 16:22:41 10.71.57.0 3128-540 open "/flux/work/brace/large/RUDNY_1_brace.jpg" flags READ mode 0666
+Jan 21 16:22:41 10.71.57.0 3128-540 open "/flux/work/brace/large/ROKKASHO_brace.jpg" flags READ mode 0666
+Jan 21 16:22:41 10.71.57.0 3128-540 close "/flux/work/brace/large/RUDNY_1_brace.jpg" bytes read 23661 written 0
+Jan 21 16:22:41 10.71.57.0 3128-540 [10.71.57.0|get|0|23661|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f5255444e595f315f62726163652e6a7067|]
+Jan 21 16:22:41 10.71.57.0 3128-540 close "/flux/work/brace/large/ROKKASHO_brace.jpg" bytes read 51071 written 0
+Jan 21 16:22:41 10.71.57.0 3128-540 [10.71.57.0|get|0|51071|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f524f4b4b4153484f5f62726163652e6a7067|]
+Jan 21 16:22:41 10.71.57.0 3128-540 sent status No such file
+Jan 21 16:22:41 10.71.57.0 3128-540 open "/flux/work/brace/large/Priel_arm.jpg" flags READ mode 0666
+Jan 21 16:22:41 10.71.57.0 3128-540 open "/flux/work/brace/large/Palido_arm.jpg" flags READ mode 0666
+Jan 21 16:22:41 10.71.57.0 3128-540 close "/flux/work/brace/large/Priel_arm.jpg" bytes read 36983 written 0
+Jan 21 16:22:41 10.71.57.0 3128-540 [10.71.57.0|get|0|36983|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f507269656c5f61726d2e6a7067|]
+Jan 21 16:22:42 10.71.57.0 3128-540 close "/flux/work/brace/large/Palido_arm.jpg" bytes read 29323 written 0
+Jan 21 16:22:42 10.71.57.0 3128-540 [10.71.57.0|get|1|29323|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f50616c69646f5f61726d2e6a7067|]
+Jan 21 16:22:42 10.71.57.0 3128-540 open "/flux/work/brace/large/Palido2_arm.jpg" flags READ mode 0666
+Jan 21 16:22:42 10.71.57.0 3128-540 open "/flux/work/brace/large/PAWLOWO_brace.jpg" flags READ mode 0666
+Jan 21 16:22:42 10.71.57.0 3128-540 close "/flux/work/brace/large/Palido2_arm.jpg" bytes read 28885 written 0
+Jan 21 16:22:42 10.71.57.0 3128-540 [10.71.57.0|get|0|28885|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f50616c69646f325f61726d2e6a7067|]
+Jan 21 16:22:42 10.71.57.0 3128-540 close "/flux/work/brace/large/PAWLOWO_brace.jpg" bytes read 22076 written 0
+Jan 21 16:22:42 10.71.57.0 3128-540 [10.71.57.0|get|0|22076|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f5041574c4f574f5f62726163652e6a7067|]
+Jan 21 16:22:42 10.71.57.0 3128-540 open "/flux/work/brace/large/OXO_brace.jpg" flags READ mode 0666
+Jan 21 16:22:42 10.71.57.0 3128-540 open "/flux/work/brace/large/Maros_arm.jpg" flags READ mode 0666
+Jan 21 16:22:42 10.71.57.0 3128-540 close "/flux/work/brace/large/OXO_brace.jpg" bytes read 28056 written 0
+Jan 21 16:22:42 10.71.57.0 3128-540 [10.71.57.0|get|0|28056|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f4f584f5f62726163652e6a7067|]
+Jan 21 16:22:42 10.71.57.0 3128-540 close "/flux/work/brace/large/Maros_arm.jpg" bytes read 36656 written 0
+Jan 21 16:22:42 10.71.57.0 3128-540 [10.71.57.0|get|0|36656|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f4d61726f735f61726d2e6a7067|]
+Jan 21 16:22:42 10.71.57.0 3128-540 open "/flux/work/brace/large/MYSTIC_brace.jpg" flags READ mode 0666
+Jan 21 16:22:42 10.71.57.0 3128-540 open "/flux/work/brace/large/MURANO_brace.jpg" flags READ mode 0666
+Jan 21 16:22:42 10.71.57.0 3128-540 close "/flux/work/brace/large/MYSTIC_brace.jpg" bytes read 32509 written 0
+Jan 21 16:22:42 10.71.57.0 3128-540 [10.71.57.0|get|0|32509|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f4d59535449435f62726163652e6a7067|]
+Jan 21 16:22:42 10.71.57.0 3128-540 close "/flux/work/brace/large/MURANO_brace.jpg" bytes read 46411 written 0
+Jan 21 16:22:42 10.71.57.0 3128-540 [10.71.57.0|get|0|46411|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f4d5552414e4f5f62726163652e6a7067|]
+Jan 21 16:22:42 10.71.57.0 3128-540 open "/flux/work/brace/large/MINOO_brace.jpg" flags READ mode 0666
+Jan 21 16:22:42 10.71.57.0 3128-540 open "/flux/work/brace/large/MARCONI_brace.jpg" flags READ mode 0666
+Jan 21 16:22:42 10.71.57.0 3128-540 close "/flux/work/brace/large/MINOO_brace.jpg" bytes read 31630 written 0
+Jan 21 16:22:42 10.71.57.0 3128-540 [10.71.57.0|get|0|31630|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f4d494e4f4f5f62726163652e6a7067|]
+Jan 21 16:22:43 10.71.57.0 3128-540 open "/flux/work/brace/large/Letto_arm.jpg" flags READ mode 0666
+Jan 21 16:22:43 10.71.57.0 3128-540 close "/flux/work/brace/large/MARCONI_brace.jpg" bytes read 37994 written 0
+Jan 21 16:22:43 10.71.57.0 3128-540 [10.71.57.0|get|1|37994|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f4d4152434f4e495f62726163652e6a7067|]
+Jan 21 16:22:43 10.71.57.0 3128-540 open "/flux/work/brace/large/Lapido_arm.jpg" flags READ mode 0666
+Jan 21 16:22:43 10.71.57.0 3128-540 close "/flux/work/brace/large/Letto_arm.jpg" bytes read 26011 written 0
+Jan 21 16:22:43 10.71.57.0 3128-540 [10.71.57.0|get|0|26011|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f4c6574746f5f61726d2e6a7067|]
+Jan 21 16:22:43 10.71.57.0 3128-540 open "/flux/work/brace/large/LARAMIE_brace.jpg" flags READ mode 0666
+Jan 21 16:22:43 10.71.57.0 3128-540 close "/flux/work/brace/large/Lapido_arm.jpg" bytes read 43665 written 0
+Jan 21 16:22:43 10.71.57.0 3128-540 [10.71.57.0|get|0|43665|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f4c617069646f5f61726d2e6a7067|]
+Jan 21 16:22:43 10.71.57.0 3128-540 close "/flux/work/brace/large/LARAMIE_brace.jpg" bytes read 57048 written 0
+Jan 21 16:22:43 10.71.57.0 3128-540 [10.71.57.0|get|0|57048|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f4c4152414d49455f62726163652e6a7067|]
+Jan 21 16:22:43 10.71.57.0 3128-540 open "/flux/work/brace/large/LALIBELA_brace.jpg" flags READ mode 0666
+Jan 21 16:22:43 10.71.57.0 3128-540 open "/flux/work/brace/large/Cok_arm.jpg" flags READ mode 0666
+Jan 21 16:22:43 10.71.57.0 3128-540 close "/flux/work/brace/large/LALIBELA_brace.jpg" bytes read 34284 written 0
+Jan 21 16:22:43 10.71.57.0 3128-540 [10.71.57.0|get|0|34284|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f4c414c4942454c415f62726163652e6a7067|]
+Jan 21 16:22:43 10.71.57.0 3128-540 open "/flux/work/brace/large/Bugi_arm.jpg" flags READ mode 0666
+Jan 21 16:22:43 10.71.57.0 3128-540 close "/flux/work/brace/large/Cok_arm.jpg" bytes read 41648 written 0
+Jan 21 16:22:43 10.71.57.0 3128-540 [10.71.57.0|get|0|41648|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f436f6b5f61726d2e6a7067|]
+Jan 21 16:22:43 10.71.57.0 3128-540 open "/flux/work/brace/large/Belitze_arm.jpg" flags READ mode 0666
+Jan 21 16:22:43 10.71.57.0 3128-540 close "/flux/work/brace/large/Bugi_arm.jpg" bytes read 46172 written 0
+Jan 21 16:22:43 10.71.57.0 3128-540 [10.71.57.0|get|0|46172|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f427567695f61726d2e6a7067|]
+Jan 21 16:22:43 10.71.57.0 3128-540 open "/flux/work/brace/large/Bela_arm.jpg" flags READ mode 0666
+Jan 21 16:22:43 10.71.57.0 3128-540 close "/flux/work/brace/large/Belitze_arm.jpg" bytes read 45995 written 0
+Jan 21 16:22:43 10.71.57.0 3128-540 [10.71.57.0|get|0|45995|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f42656c69747a655f61726d2e6a7067|]
+Jan 21 16:22:44 10.71.57.0 3128-540 close "/flux/work/brace/large/Bela_arm.jpg" bytes read 37788 written 0
+Jan 21 16:22:44 10.71.57.0 3128-540 [10.71.57.0|get|1|37788|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f42656c615f61726d2e6a7067|]
+Jan 21 16:22:44 10.71.57.0 3128-540 open "/flux/work/brace/large/BABADAG_brace.jpg" flags READ mode 0666
+Jan 21 16:22:44 10.71.57.0 3128-540 open "/flux/work/brace/large/ALTAI_brace.jpg" flags READ mode 0666
+Jan 21 16:22:44 10.71.57.0 3128-540 close "/flux/work/brace/large/BABADAG_brace.jpg" bytes read 27537 written 0
+Jan 21 16:22:44 10.71.57.0 3128-540 [10.71.57.0|get|0|27537|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f424142414441475f62726163652e6a7067|]
+Jan 21 16:22:44 10.71.57.0 3128-540 close "/flux/work/brace/large/ALTAI_brace.jpg" bytes read 27701 written 0
+Jan 21 16:22:44 10.71.57.0 3128-540 [10.71.57.0|get|0|27701|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f414c5441495f62726163652e6a7067|]
+Jan 21 16:22:44 10.71.57.0 3128-540 open "/flux/work/brace/large/AKSU_brace.jpg" flags READ mode 0666
+Jan 21 16:22:44 10.71.57.0 3128-540 close "/flux/work/brace/large/AKSU_brace.jpg" bytes read 24849 written 0
+Jan 21 16:22:44 10.71.57.0 3128-540 [10.71.57.0|get|0|24849|0|0|0|2f666c75782f776f726b2f62726163652f6c617267652f414b53555f62726163652e6a7067|]
+Jan 21 16:22:44 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/IMOLA_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:44 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/IMOLA_thumb.jpg" bytes read 2395 written 0
+Jan 21 16:22:44 10.71.57.0 3128-540 [10.71.57.0|get|0|2395|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f494d4f4c415f7468756d622e6a7067|]
+Jan 21 16:22:44 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/ZAMIST_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:44 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/X_WING_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:44 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/ZAMIST_thumb.jpg" bytes read 1866 written 0
+Jan 21 16:22:44 10.71.57.0 3128-540 [10.71.57.0|get|0|1866|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f5a414d4953545f7468756d622e6a7067|]
+Jan 21 16:22:44 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/X_WING_thumb.jpg" bytes read 2383 written 0
+Jan 21 16:22:44 10.71.57.0 3128-540 [10.71.57.0|get|0|2383|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f585f57494e475f7468756d622e6a7067|]
+Jan 21 16:22:44 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/Vize_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:44 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/TB5_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:44 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/Vize_thumb.jpg" bytes read 4256 written 0
+Jan 21 16:22:44 10.71.57.0 3128-540 [10.71.57.0|get|0|4256|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f56697a655f7468756d622e6a7067|]
+Jan 21 16:22:45 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/TB5_thumb.jpg" bytes read 1698 written 0
+Jan 21 16:22:45 10.71.57.0 3128-540 [10.71.57.0|get|1|1698|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f5442355f7468756d622e6a7067|]
+Jan 21 16:22:45 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/TB3_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:45 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/SIBIU_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:45 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/TB3_thumb.jpg" bytes read 1628 written 0
+Jan 21 16:22:45 10.71.57.0 3128-540 [10.71.57.0|get|0|1628|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f5442335f7468756d622e6a7067|]
+Jan 21 16:22:45 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/SIBIU_thumb.jpg" bytes read 1749 written 0
+Jan 21 16:22:45 10.71.57.0 3128-540 [10.71.57.0|get|0|1749|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f53494249555f7468756d622e6a7067|]
+Jan 21 16:22:45 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/RUDNY_2_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:45 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/RUDNY_1_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:45 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/RUDNY_2_thumb.jpg" bytes read 2034 written 0
+Jan 21 16:22:45 10.71.57.0 3128-540 [10.71.57.0|get|0|2034|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f5255444e595f325f7468756d622e6a7067|]
+Jan 21 16:22:45 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/RUDNY_1_thumb.jpg" bytes read 2085 written 0
+Jan 21 16:22:45 10.71.57.0 3128-540 [10.71.57.0|get|0|2085|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f5255444e595f315f7468756d622e6a7067|]
+Jan 21 16:22:45 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/ROKKASHO_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:45 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/Priel_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:45 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/ROKKASHO_thumb.jpg" bytes read 3317 written 0
+Jan 21 16:22:45 10.71.57.0 3128-540 [10.71.57.0|get|0|3317|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f524f4b4b4153484f5f7468756d622e6a7067|]
+Jan 21 16:22:45 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/Priel_thumb.jpg" bytes read 3771 written 0
+Jan 21 16:22:45 10.71.57.0 3128-540 [10.71.57.0|get|0|3771|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f507269656c5f7468756d622e6a7067|]
+Jan 21 16:22:45 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/Palido_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:45 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/Palido2_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:45 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/Palido_thumb.jpg" bytes read 3089 written 0
+Jan 21 16:22:45 10.71.57.0 3128-540 [10.71.57.0|get|0|3089|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f50616c69646f5f7468756d622e6a7067|]
+Jan 21 16:22:45 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/Palido2_thumb.jpg" bytes read 3547 written 0
+Jan 21 16:22:45 10.71.57.0 3128-540 [10.71.57.0|get|0|3547|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f50616c69646f325f7468756d622e6a7067|]
+Jan 21 16:22:45 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/PAWLOWO_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:45 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/OXO_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:46 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/PAWLOWO_thumb.jpg" bytes read 1955 written 0
+Jan 21 16:22:46 10.71.57.0 3128-540 [10.71.57.0|get|1|1955|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f5041574c4f574f5f7468756d622e6a7067|]
+Jan 21 16:22:46 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/OXO_thumb.jpg" bytes read 2357 written 0
+Jan 21 16:22:46 10.71.57.0 3128-540 [10.71.57.0|get|1|2357|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f4f584f5f7468756d622e6a7067|]
+Jan 21 16:22:46 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/Maros_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:46 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/MYSTIC_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:46 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/Maros_thumb.jpg" bytes read 4395 written 0
+Jan 21 16:22:46 10.71.57.0 3128-540 [10.71.57.0|get|0|4395|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f4d61726f735f7468756d622e6a7067|]
+Jan 21 16:22:46 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/MYSTIC_thumb.jpg" bytes read 3274 written 0
+Jan 21 16:22:46 10.71.57.0 3128-540 [10.71.57.0|get|0|3274|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f4d59535449435f7468756d622e6a7067|]
+Jan 21 16:22:46 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/MURANO_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:46 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/MINOO_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:46 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/MURANO_thumb.jpg" bytes read 2515 written 0
+Jan 21 16:22:46 10.71.57.0 3128-540 [10.71.57.0|get|0|2515|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f4d5552414e4f5f7468756d622e6a7067|]
+Jan 21 16:22:46 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/MINOO_thumb.jpg" bytes read 2961 written 0
+Jan 21 16:22:46 10.71.57.0 3128-540 [10.71.57.0|get|0|2961|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f4d494e4f4f5f7468756d622e6a7067|]
+Jan 21 16:22:46 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/MARCONI_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:46 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/Letto_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:46 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/MARCONI_thumb.jpg" bytes read 2528 written 0
+Jan 21 16:22:46 10.71.57.0 3128-540 [10.71.57.0|get|0|2528|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f4d4152434f4e495f7468756d622e6a7067|]
+Jan 21 16:22:46 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/Letto_thumb.jpg" bytes read 2656 written 0
+Jan 21 16:22:46 10.71.57.0 3128-540 [10.71.57.0|get|0|2656|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f4c6574746f5f7468756d622e6a7067|]
+Jan 21 16:22:46 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/Lapido_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:46 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/LARAMIE_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:46 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/Lapido_thumb.jpg" bytes read 5184 written 0
+Jan 21 16:22:46 10.71.57.0 3128-540 [10.71.57.0|get|0|5184|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f4c617069646f5f7468756d622e6a7067|]
+Jan 21 16:22:46 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/LARAMIE_thumb.jpg" bytes read 2840 written 0
+Jan 21 16:22:46 10.71.57.0 3128-540 [10.71.57.0|get|0|2840|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f4c4152414d49455f7468756d622e6a7067|]
+Jan 21 16:22:46 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/LALIBELA_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:47 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/Cok_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:47 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/LALIBELA_thumb.jpg" bytes read 2970 written 0
+Jan 21 16:22:47 10.71.57.0 3128-540 [10.71.57.0|get|1|2970|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f4c414c4942454c415f7468756d622e6a7067|]
+Jan 21 16:22:47 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/Cok_thumb.jpg" bytes read 5257 written 0
+Jan 21 16:22:47 10.71.57.0 3128-540 [10.71.57.0|get|0|5257|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f436f6b5f7468756d622e6a7067|]
+Jan 21 16:22:47 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/Bugi_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:47 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/Belitze_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:47 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/Bugi_thumb.jpg" bytes read 5225 written 0
+Jan 21 16:22:47 10.71.57.0 3128-540 [10.71.57.0|get|0|5225|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f427567695f7468756d622e6a7067|]
+Jan 21 16:22:47 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/Belitze_thumb.jpg" bytes read 4311 written 0
+Jan 21 16:22:47 10.71.57.0 3128-540 [10.71.57.0|get|0|4311|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f42656c69747a655f7468756d622e6a7067|]
+Jan 21 16:22:47 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/Bela_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:47 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/BABADAG_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:47 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/Bela_thumb.jpg" bytes read 3390 written 0
+Jan 21 16:22:47 10.71.57.0 3128-540 [10.71.57.0|get|0|3390|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f42656c615f7468756d622e6a7067|]
+Jan 21 16:22:47 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/BABADAG_thumb.jpg" bytes read 2060 written 0
+Jan 21 16:22:47 10.71.57.0 3128-540 [10.71.57.0|get|0|2060|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f424142414441475f7468756d622e6a7067|]
+Jan 21 16:22:47 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/ALTAI_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:47 10.71.57.0 3128-540 open "/flux/work/brace/thumbs/AKSU_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:47 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/ALTAI_thumb.jpg" bytes read 2290 written 0
+Jan 21 16:22:47 10.71.57.0 3128-540 [10.71.57.0|get|0|2290|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f414c5441495f7468756d622e6a7067|]
+Jan 21 16:22:47 10.71.57.0 3128-540 close "/flux/work/brace/thumbs/AKSU_thumb.jpg" bytes read 2126 written 0
+Jan 21 16:22:47 10.71.57.0 3128-540 [10.71.57.0|get|0|2126|0|0|0|2f666c75782f776f726b2f62726163652f7468756d62732f414b53555f7468756d622e6a7067|]
+Jan 21 16:22:47 10.71.57.0 3128-540 open "/flux/work/broo/large/PETUSCHKI_bro.jpg" flags READ mode 0666
+Jan 21 16:22:48 10.71.57.0 3128-540 open "/flux/work/broo/large/MAPUTO_bro.jpg" flags READ mode 0666
+Jan 21 16:22:48 10.71.57.0 3128-540 close "/flux/work/broo/large/PETUSCHKI_bro.jpg" bytes read 56439 written 0
+Jan 21 16:22:48 10.71.57.0 3128-540 [10.71.57.0|get|1|56439|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f504554555343484b495f62726f2e6a7067|]
+Jan 21 16:22:48 10.71.57.0 3128-540 close "/flux/work/broo/large/MAPUTO_bro.jpg" bytes read 90510 written 0
+Jan 21 16:22:48 10.71.57.0 3128-540 [10.71.57.0|get|0|90510|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f4d415055544f5f62726f2e6a7067|]
+Jan 21 16:22:48 10.71.57.0 3128-540 open "/flux/work/broo/large/ZOLDER_bro.jpg" flags READ mode 0666
+Jan 21 16:22:48 10.71.57.0 3128-540 open "/flux/work/broo/large/Tallo_bro.jpg" flags READ mode 0666
+Jan 21 16:22:48 10.71.57.0 3128-540 close "/flux/work/broo/large/ZOLDER_bro.jpg" bytes read 47803 written 0
+Jan 21 16:22:48 10.71.57.0 3128-540 [10.71.57.0|get|0|47803|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f5a4f4c4445525f62726f2e6a7067|]
+Jan 21 16:22:48 10.71.57.0 3128-540 close "/flux/work/broo/large/Tallo_bro.jpg" bytes read 29486 written 0
+Jan 21 16:22:48 10.71.57.0 3128-540 [10.71.57.0|get|0|29486|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f54616c6c6f5f62726f2e6a7067|]
+Jan 21 16:22:48 10.71.57.0 3128-540 open "/flux/work/broo/large/TOPANGA_brooch.jpg" flags READ mode 0666
+Jan 21 16:22:48 10.71.57.0 3128-540 open "/flux/work/broo/large/TAWARA_brooch.jpg" flags READ mode 0666
+Jan 21 16:22:48 10.71.57.0 3128-540 close "/flux/work/broo/large/TOPANGA_brooch.jpg" bytes read 43688 written 0
+Jan 21 16:22:48 10.71.57.0 3128-540 [10.71.57.0|get|0|43688|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f544f50414e47415f62726f6f63682e6a7067|]
+Jan 21 16:22:48 10.71.57.0 3128-540 close "/flux/work/broo/large/TAWARA_brooch.jpg" bytes read 39655 written 0
+Jan 21 16:22:48 10.71.57.0 3128-540 [10.71.57.0|get|0|39655|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f5441574152415f62726f6f63682e6a7067|]
+Jan 21 16:22:48 10.71.57.0 3128-540 open "/flux/work/broo/large/Rosette_bro.jpg" flags READ mode 0666
+Jan 21 16:22:48 10.71.57.0 3128-540 open "/flux/work/broo/large/ROSSANO_bro.jpg" flags READ mode 0666
+Jan 21 16:22:48 10.71.57.0 3128-540 close "/flux/work/broo/large/Rosette_bro.jpg" bytes read 35740 written 0
+Jan 21 16:22:48 10.71.57.0 3128-540 [10.71.57.0|get|0|35740|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f526f73657474655f62726f2e6a7067|]
+Jan 21 16:22:48 10.71.57.0 3128-540 open "/flux/work/broo/large/PETALUMA_bro.jpg" flags READ mode 0666
+Jan 21 16:22:48 10.71.57.0 3128-540 close "/flux/work/broo/large/ROSSANO_bro.jpg" bytes read 47744 written 0
+Jan 21 16:22:48 10.71.57.0 3128-540 [10.71.57.0|get|0|47744|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f524f5353414e4f5f62726f2e6a7067|]
+Jan 21 16:22:49 10.71.57.0 3128-540 close "/flux/work/broo/large/PETALUMA_bro.jpg" bytes read 26876 written 0
+Jan 21 16:22:49 10.71.57.0 3128-540 [10.71.57.0|get|1|26876|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f504554414c554d415f62726f2e6a7067|]
+Jan 21 16:22:49 10.71.57.0 3128-540 open "/flux/work/broo/large/OREL_bro.jpg" flags READ mode 0666
+Jan 21 16:22:49 10.71.57.0 3128-540 open "/flux/work/broo/large/NOKOMIS_bro.jpg" flags READ mode 0666
+Jan 21 16:22:49 10.71.57.0 3128-540 close "/flux/work/broo/large/OREL_bro.jpg" bytes read 32811 written 0
+Jan 21 16:22:49 10.71.57.0 3128-540 [10.71.57.0|get|0|32811|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f4f52454c5f62726f2e6a7067|]
+Jan 21 16:22:49 10.71.57.0 3128-540 close "/flux/work/broo/large/NOKOMIS_bro.jpg" bytes read 30907 written 0
+Jan 21 16:22:49 10.71.57.0 3128-540 [10.71.57.0|get|0|30907|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f4e4f4b4f4d49535f62726f2e6a7067|]
+Jan 21 16:22:49 10.71.57.0 3128-540 open "/flux/work/broo/large/NEBUX_bro.jpg" flags READ mode 0666
+Jan 21 16:22:49 10.71.57.0 3128-540 open "/flux/work/broo/large/NABOO_bro.jpg" flags READ mode 0666
+Jan 21 16:22:49 10.71.57.0 3128-540 close "/flux/work/broo/large/NEBUX_bro.jpg" bytes read 18605 written 0
+Jan 21 16:22:49 10.71.57.0 3128-540 [10.71.57.0|get|0|18605|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f4e454255585f62726f2e6a7067|]
+Jan 21 16:22:49 10.71.57.0 3128-540 open "/flux/work/broo/large/Mauk_bro.jpg" flags READ mode 0666
+Jan 21 16:22:49 10.71.57.0 3128-540 close "/flux/work/broo/large/NABOO_bro.jpg" bytes read 33276 written 0
+Jan 21 16:22:49 10.71.57.0 3128-540 [10.71.57.0|get|0|33276|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f4e41424f4f5f62726f2e6a7067|]
+Jan 21 16:22:49 10.71.57.0 3128-540 close "/flux/work/broo/large/Mauk_bro.jpg" bytes read 22611 written 0
+Jan 21 16:22:49 10.71.57.0 3128-540 [10.71.57.0|get|0|22611|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f4d61756b5f62726f2e6a7067|]
+Jan 21 16:22:49 10.71.57.0 3128-540 open "/flux/work/broo/large/MIRTA_bro.jpg" flags READ mode 0666
+Jan 21 16:22:49 10.71.57.0 3128-540 open "/flux/work/broo/large/LIPKA_bro.jpg" flags READ mode 0666
+Jan 21 16:22:49 10.71.57.0 3128-540 close "/flux/work/broo/large/MIRTA_bro.jpg" bytes read 40084 written 0
+Jan 21 16:22:49 10.71.57.0 3128-540 [10.71.57.0|get|0|40084|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f4d495254415f62726f2e6a7067|]
+Jan 21 16:22:49 10.71.57.0 3128-540 close "/flux/work/broo/large/LIPKA_bro.jpg" bytes read 23790 written 0
+Jan 21 16:22:49 10.71.57.0 3128-540 [10.71.57.0|get|0|23790|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f4c49504b415f62726f2e6a7067|]
+Jan 21 16:22:49 10.71.57.0 3128-540 open "/flux/work/broo/large/KABAKE_bro.jpg" flags READ mode 0666
+Jan 21 16:22:50 10.71.57.0 3128-540 open "/flux/work/broo/large/Hoja_bro.jpg" flags READ mode 0666
+Jan 21 16:22:50 10.71.57.0 3128-540 close "/flux/work/broo/large/KABAKE_bro.jpg" bytes read 29953 written 0
+Jan 21 16:22:50 10.71.57.0 3128-540 [10.71.57.0|get|1|29953|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f4b4142414b455f62726f2e6a7067|]
+Jan 21 16:22:50 10.71.57.0 3128-540 open "/flux/work/broo/large/HIIUMA_bro.jpg" flags READ mode 0666
+Jan 21 16:22:50 10.71.57.0 3128-540 close "/flux/work/broo/large/Hoja_bro.jpg" bytes read 36391 written 0
+Jan 21 16:22:50 10.71.57.0 3128-540 [10.71.57.0|get|0|36391|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f486f6a615f62726f2e6a7067|]
+Jan 21 16:22:50 10.71.57.0 3128-540 close "/flux/work/broo/large/HIIUMA_bro.jpg" bytes read 29169 written 0
+Jan 21 16:22:50 10.71.57.0 3128-540 [10.71.57.0|get|0|29169|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f484949554d415f62726f2e6a7067|]
+Jan 21 16:22:50 10.71.57.0 3128-540 open "/flux/work/broo/large/Gifu_bro.jpg" flags READ mode 0666
+Jan 21 16:22:50 10.71.57.0 3128-540 open "/flux/work/broo/large/Espina_bro.jpg" flags READ mode 0666
+Jan 21 16:22:50 10.71.57.0 3128-540 close "/flux/work/broo/large/Gifu_bro.jpg" bytes read 34032 written 0
+Jan 21 16:22:50 10.71.57.0 3128-540 [10.71.57.0|get|0|34032|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f476966755f62726f2e6a7067|]
+Jan 21 16:22:50 10.71.57.0 3128-540 close "/flux/work/broo/large/Espina_bro.jpg" bytes read 35745 written 0
+Jan 21 16:22:50 10.71.57.0 3128-540 [10.71.57.0|get|0|35745|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f457370696e615f62726f2e6a7067|]
+Jan 21 16:22:50 10.71.57.0 3128-540 open "/flux/work/broo/large/DINGXI_bro.jpg" flags READ mode 0666
+Jan 21 16:22:50 10.71.57.0 3128-540 open "/flux/work/broo/large/CUPAR_bro.jpg" flags READ mode 0666
+Jan 21 16:22:50 10.71.57.0 3128-540 close "/flux/work/broo/large/DINGXI_bro.jpg" bytes read 42032 written 0
+Jan 21 16:22:50 10.71.57.0 3128-540 [10.71.57.0|get|0|42032|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f44494e4758495f62726f2e6a7067|]
+Jan 21 16:22:50 10.71.57.0 3128-540 close "/flux/work/broo/large/CUPAR_bro.jpg" bytes read 22271 written 0
+Jan 21 16:22:50 10.71.57.0 3128-540 [10.71.57.0|get|0|22271|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f43555041525f62726f2e6a7067|]
+Jan 21 16:22:50 10.71.57.0 3128-540 open "/flux/work/broo/large/CANORA_bro.jpg" flags READ mode 0666
+Jan 21 16:22:50 10.71.57.0 3128-540 open "/flux/work/broo/large/Bursa_bro.jpg" flags READ mode 0666
+Jan 21 16:22:51 10.71.57.0 3128-540 close "/flux/work/broo/large/CANORA_bro.jpg" bytes read 23577 written 0
+Jan 21 16:22:51 10.71.57.0 3128-540 [10.71.57.0|get|1|23577|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f43414e4f52415f62726f2e6a7067|]
+Jan 21 16:22:51 10.71.57.0 3128-540 close "/flux/work/broo/large/Bursa_bro.jpg" bytes read 33861 written 0
+Jan 21 16:22:51 10.71.57.0 3128-540 [10.71.57.0|get|1|33861|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f42757273615f62726f2e6a7067|]
+Jan 21 16:22:51 10.71.57.0 3128-540 open "/flux/work/broo/large/Breath_bro_vers_2.jpg" flags READ mode 0666
+Jan 21 16:22:51 10.71.57.0 3128-540 open "/flux/work/broo/large/Breath_bro_vers_1.jpg" flags READ mode 0666
+Jan 21 16:22:51 10.71.57.0 3128-540 close "/flux/work/broo/large/Breath_bro_vers_1.jpg" bytes read 31566 written 0
+Jan 21 16:22:51 10.71.57.0 3128-540 [10.71.57.0|get|0|31566|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f4272656174685f62726f5f766572735f312e6a7067|]
+Jan 21 16:22:51 10.71.57.0 3128-540 close "/flux/work/broo/large/Breath_bro_vers_2.jpg" bytes read 36094 written 0
+Jan 21 16:22:51 10.71.57.0 3128-540 [10.71.57.0|get|0|36094|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f4272656174685f62726f5f766572735f322e6a7067|]
+Jan 21 16:22:51 10.71.57.0 3128-540 open "/flux/work/broo/large/Breath_bro.jpg" flags READ mode 0666
+Jan 21 16:22:51 10.71.57.0 3128-540 open "/flux/work/broo/large/BAIKONUR_bro.jpg" flags READ mode 0666
+Jan 21 16:22:51 10.71.57.0 3128-540 close "/flux/work/broo/large/Breath_bro.jpg" bytes read 44832 written 0
+Jan 21 16:22:51 10.71.57.0 3128-540 [10.71.57.0|get|0|44832|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f4272656174685f62726f2e6a7067|]
+Jan 21 16:22:51 10.71.57.0 3128-540 close "/flux/work/broo/large/BAIKONUR_bro.jpg" bytes read 42736 written 0
+Jan 21 16:22:51 10.71.57.0 3128-540 [10.71.57.0|get|0|42736|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f4241494b4f4e55525f62726f2e6a7067|]
+Jan 21 16:22:51 10.71.57.0 3128-540 open "/flux/work/broo/large/Anillo_bro_ansicht_2.jpg" flags READ mode 0666
+Jan 21 16:22:51 10.71.57.0 3128-540 open "/flux/work/broo/large/Anillo_bro.jpg" flags READ mode 0666
+Jan 21 16:22:51 10.71.57.0 3128-540 close "/flux/work/broo/large/Anillo_bro_ansicht_2.jpg" bytes read 45410 written 0
+Jan 21 16:22:51 10.71.57.0 3128-540 [10.71.57.0|get|0|45410|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f416e696c6c6f5f62726f5f616e73696368745f322e6a7067|]
+Jan 21 16:22:51 10.71.57.0 3128-540 close "/flux/work/broo/large/Anillo_bro.jpg" bytes read 37965 written 0
+Jan 21 16:22:51 10.71.57.0 3128-540 [10.71.57.0|get|0|37965|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f416e696c6c6f5f62726f2e6a7067|]
+Jan 21 16:22:51 10.71.57.0 3128-540 open "/flux/work/broo/large/AUSTIN_brooch.jpg" flags READ mode 0666
+Jan 21 16:22:52 10.71.57.0 3128-540 close "/flux/work/broo/large/AUSTIN_brooch.jpg" bytes read 32997 written 0
+Jan 21 16:22:52 10.71.57.0 3128-540 [10.71.57.0|get|1|32997|0|0|0|2f666c75782f776f726b2f62726f6f2f6c617267652f41555354494e5f62726f6f63682e6a7067|]
+Jan 21 16:22:52 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/PETUSCHKI_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:52 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/PETUSCHKI_thumb.jpg" bytes read 4159 written 0
+Jan 21 16:22:52 10.71.57.0 3128-540 [10.71.57.0|get|0|4159|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f504554555343484b495f7468756d622e6a7067|]
+Jan 21 16:22:52 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/MAPUTO_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:52 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/ZOLDER_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:52 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/MAPUTO_thumb.jpg" bytes read 6079 written 0
+Jan 21 16:22:52 10.71.57.0 3128-540 [10.71.57.0|get|0|6079|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f4d415055544f5f7468756d622e6a7067|]
+Jan 21 16:22:52 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/ZOLDER_thumb.jpg" bytes read 2541 written 0
+Jan 21 16:22:52 10.71.57.0 3128-540 [10.71.57.0|get|0|2541|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f5a4f4c4445525f7468756d622e6a7067|]
+Jan 21 16:22:52 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/Tallo_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:52 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/TOPANGA_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:52 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/Tallo_thumb.jpg" bytes read 1260 written 0
+Jan 21 16:22:52 10.71.57.0 3128-540 [10.71.57.0|get|0|1260|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f54616c6c6f5f7468756d622e6a7067|]
+Jan 21 16:22:52 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/TOPANGA_thumb.jpg" bytes read 3815 written 0
+Jan 21 16:22:52 10.71.57.0 3128-540 [10.71.57.0|get|0|3815|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f544f50414e47415f7468756d622e6a7067|]
+Jan 21 16:22:52 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/TAWARA_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:52 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/Rosette_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:52 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/Rosette_thumb.jpg" bytes read 1647 written 0
+Jan 21 16:22:52 10.71.57.0 3128-540 [10.71.57.0|get|0|1647|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f526f73657474655f7468756d622e6a7067|]
+Jan 21 16:22:52 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/TAWARA_thumb.jpg" bytes read 4023 written 0
+Jan 21 16:22:52 10.71.57.0 3128-540 [10.71.57.0|get|0|4023|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f5441574152415f7468756d622e6a7067|]
+Jan 21 16:22:52 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/ROSSANO_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:52 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/PETALUMA_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:53 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/ROSSANO_thumb.jpg" bytes read 2539 written 0
+Jan 21 16:22:53 10.71.57.0 3128-540 [10.71.57.0|get|1|2539|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f524f5353414e4f5f7468756d622e6a7067|]
+Jan 21 16:22:53 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/PETALUMA_thumb.jpg" bytes read 2368 written 0
+Jan 21 16:22:53 10.71.57.0 3128-540 [10.71.57.0|get|1|2368|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f504554414c554d415f7468756d622e6a7067|]
+Jan 21 16:22:53 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/OREL_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:53 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/NOKOMIS_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:53 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/OREL_thumb.jpg" bytes read 2770 written 0
+Jan 21 16:22:53 10.71.57.0 3128-540 [10.71.57.0|get|0|2770|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f4f52454c5f7468756d622e6a7067|]
+Jan 21 16:22:53 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/NOKOMIS_thumb.jpg" bytes read 2323 written 0
+Jan 21 16:22:53 10.71.57.0 3128-540 [10.71.57.0|get|0|2323|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f4e4f4b4f4d49535f7468756d622e6a7067|]
+Jan 21 16:22:53 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/NEBUX_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:53 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/NABOO_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:53 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/NEBUX_thumb.jpg" bytes read 1749 written 0
+Jan 21 16:22:53 10.71.57.0 3128-540 [10.71.57.0|get|0|1749|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f4e454255585f7468756d622e6a7067|]
+Jan 21 16:22:53 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/NABOO_thumb.jpg" bytes read 1178 written 0
+Jan 21 16:22:53 10.71.57.0 3128-540 [10.71.57.0|get|0|1178|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f4e41424f4f5f7468756d622e6a7067|]
+Jan 21 16:22:53 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/Mauk_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:53 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/MIRTA_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:53 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/Mauk_thumb.jpg" bytes read 1307 written 0
+Jan 21 16:22:53 10.71.57.0 3128-540 [10.71.57.0|get|0|1307|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f4d61756b5f7468756d622e6a7067|]
+Jan 21 16:22:53 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/MIRTA_thumb.jpg" bytes read 2417 written 0
+Jan 21 16:22:53 10.71.57.0 3128-540 [10.71.57.0|get|0|2417|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f4d495254415f7468756d622e6a7067|]
+Jan 21 16:22:53 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/LIPKA_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:53 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/KABAKE_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:54 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/LIPKA_thumb.jpg" bytes read 2121 written 0
+Jan 21 16:22:54 10.71.57.0 3128-540 [10.71.57.0|get|0|2121|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f4c49504b415f7468756d622e6a7067|]
+Jan 21 16:22:54 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/KABAKE_thumb.jpg" bytes read 2201 written 0
+Jan 21 16:22:54 10.71.57.0 3128-540 [10.71.57.0|get|1|2201|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f4b4142414b455f7468756d622e6a7067|]
+Jan 21 16:22:54 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/Hoja_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:54 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/HIIUMA_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:54 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/Hoja_thumb.jpg" bytes read 2228 written 0
+Jan 21 16:22:54 10.71.57.0 3128-540 [10.71.57.0|get|0|2228|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f486f6a615f7468756d622e6a7067|]
+Jan 21 16:22:54 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/HIIUMA_thumb.jpg" bytes read 2608 written 0
+Jan 21 16:22:54 10.71.57.0 3128-540 [10.71.57.0|get|0|2608|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f484949554d415f7468756d622e6a7067|]
+Jan 21 16:22:54 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/Gifu_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:54 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/Espina_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:54 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/Gifu_thumb.jpg" bytes read 1207 written 0
+Jan 21 16:22:54 10.71.57.0 3128-540 [10.71.57.0|get|0|1207|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f476966755f7468756d622e6a7067|]
+Jan 21 16:22:54 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/Espina_thumb.jpg" bytes read 1354 written 0
+Jan 21 16:22:54 10.71.57.0 3128-540 [10.71.57.0|get|0|1354|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f457370696e615f7468756d622e6a7067|]
+Jan 21 16:22:54 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/DINGXI_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:54 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/CUPAR_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:54 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/DINGXI_thumb.jpg" bytes read 2319 written 0
+Jan 21 16:22:54 10.71.57.0 3128-540 [10.71.57.0|get|0|2319|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f44494e4758495f7468756d622e6a7067|]
+Jan 21 16:22:54 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/CUPAR_thumb.jpg" bytes read 1882 written 0
+Jan 21 16:22:54 10.71.57.0 3128-540 [10.71.57.0|get|0|1882|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f43555041525f7468756d622e6a7067|]
+Jan 21 16:22:54 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/CANORA_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:54 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/Bursa_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:55 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/CANORA_thumb.jpg" bytes read 2047 written 0
+Jan 21 16:22:55 10.71.57.0 3128-540 [10.71.57.0|get|1|2047|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f43414e4f52415f7468756d622e6a7067|]
+Jan 21 16:22:55 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/Bursa_thumb.jpg" bytes read 1290 written 0
+Jan 21 16:22:55 10.71.57.0 3128-540 [10.71.57.0|get|1|1290|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f42757273615f7468756d622e6a7067|]
+Jan 21 16:22:55 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/Breath_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:55 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/BAIKONUR_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:55 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/Breath_thumb.jpg" bytes read 1656 written 0
+Jan 21 16:22:55 10.71.57.0 3128-540 [10.71.57.0|get|0|1656|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f4272656174685f7468756d622e6a7067|]
+Jan 21 16:22:55 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/BAIKONUR_thumb.jpg" bytes read 3008 written 0
+Jan 21 16:22:55 10.71.57.0 3128-540 [10.71.57.0|get|0|3008|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f4241494b4f4e55525f7468756d622e6a7067|]
+Jan 21 16:22:55 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/Anillo_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:55 10.71.57.0 3128-540 open "/flux/work/broo/thumbs/AUSTIN_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:55 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/Anillo_thumb.jpg" bytes read 1557 written 0
+Jan 21 16:22:55 10.71.57.0 3128-540 [10.71.57.0|get|0|1557|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f416e696c6c6f5f7468756d622e6a7067|]
+Jan 21 16:22:55 10.71.57.0 3128-540 close "/flux/work/broo/thumbs/AUSTIN_thumb.jpg" bytes read 3200 written 0
+Jan 21 16:22:55 10.71.57.0 3128-540 [10.71.57.0|get|0|3200|0|0|0|2f666c75782f776f726b2f62726f6f2f7468756d62732f41555354494e5f7468756d622e6a7067|]
+Jan 21 16:22:55 10.71.57.0 3128-540 open "/flux/work/ear/large/ARAYA_ear.jpg" flags READ mode 0666
+Jan 21 16:22:55 10.71.57.0 3128-540 open "/flux/work/ear/large/NYDA_ear.jpg" flags READ mode 0666
+Jan 21 16:22:55 10.71.57.0 3128-540 close "/flux/work/ear/large/NYDA_ear.jpg" bytes read 8509 written 0
+Jan 21 16:22:55 10.71.57.0 3128-540 [10.71.57.0|get|0|8509|0|0|0|2f666c75782f776f726b2f6561722f6c617267652f4e5944415f6561722e6a7067|]
+Jan 21 16:22:55 10.71.57.0 3128-540 open "/flux/work/ear/large/MISANO_ear.jpg" flags READ mode 0666
+Jan 21 16:22:56 10.71.57.0 3128-540 close "/flux/work/ear/large/MISANO_ear.jpg" bytes read 28581 written 0
+Jan 21 16:22:56 10.71.57.0 3128-540 [10.71.57.0|get|1|28581|0|0|0|2f666c75782f776f726b2f6561722f6c617267652f4d4953414e4f5f6561722e6a7067|]
+Jan 21 16:22:56 10.71.57.0 3128-540 open "/flux/work/ear/large/Koncis_ohr.jpg" flags READ mode 0666
+Jan 21 16:22:56 10.71.57.0 3128-540 close "/flux/work/ear/large/Koncis_ohr.jpg" bytes read 34476 written 0
+Jan 21 16:22:56 10.71.57.0 3128-540 [10.71.57.0|get|0|34476|0|0|0|2f666c75782f776f726b2f6561722f6c617267652f4b6f6e6369735f6f68722e6a7067|]
+Jan 21 16:22:56 10.71.57.0 3128-540 close "/flux/work/ear/large/ARAYA_ear.jpg" bytes read 82644 written 0
+Jan 21 16:22:56 10.71.57.0 3128-540 [10.71.57.0|get|1|82644|0|0|0|2f666c75782f776f726b2f6561722f6c617267652f41524159415f6561722e6a7067|]
+Jan 21 16:22:56 10.71.57.0 3128-540 open "/flux/work/ear/large/HUTUBI_ear.jpg" flags READ mode 0666
+Jan 21 16:22:56 10.71.57.0 3128-540 open "/flux/work/ear/large/DAGOBAR_ear.jpg" flags READ mode 0666
+Jan 21 16:22:56 10.71.57.0 3128-540 close "/flux/work/ear/large/HUTUBI_ear.jpg" bytes read 15398 written 0
+Jan 21 16:22:56 10.71.57.0 3128-540 [10.71.57.0|get|0|15398|0|0|0|2f666c75782f776f726b2f6561722f6c617267652f4855545542495f6561722e6a7067|]
+Jan 21 16:22:56 10.71.57.0 3128-540 close "/flux/work/ear/large/DAGOBAR_ear.jpg" bytes read 10429 written 0
+Jan 21 16:22:56 10.71.57.0 3128-540 [10.71.57.0|get|0|10429|0|0|0|2f666c75782f776f726b2f6561722f6c617267652f4441474f4241525f6561722e6a7067|]
+Jan 21 16:22:56 10.71.57.0 3128-540 open "/flux/work/ear/large/CIRELLA_ear.jpg" flags READ mode 0666
+Jan 21 16:22:56 10.71.57.0 3128-540 open "/flux/work/ear/large/Apullo_ohr.jpg" flags READ mode 0666
+Jan 21 16:22:56 10.71.57.0 3128-540 close "/flux/work/ear/large/CIRELLA_ear.jpg" bytes read 12022 written 0
+Jan 21 16:22:56 10.71.57.0 3128-540 [10.71.57.0|get|0|12022|0|0|0|2f666c75782f776f726b2f6561722f6c617267652f434952454c4c415f6561722e6a7067|]
+Jan 21 16:22:56 10.71.57.0 3128-540 close "/flux/work/ear/large/Apullo_ohr.jpg" bytes read 22884 written 0
+Jan 21 16:22:56 10.71.57.0 3128-540 [10.71.57.0|get|0|22884|0|0|0|2f666c75782f776f726b2f6561722f6c617267652f4170756c6c6f5f6f68722e6a7067|]
+Jan 21 16:22:56 10.71.57.0 3128-540 open "/flux/work/ear/large/Anillo_ohr.jpg" flags READ mode 0666
+Jan 21 16:22:56 10.71.57.0 3128-540 close "/flux/work/ear/large/Anillo_ohr.jpg" bytes read 24924 written 0
+Jan 21 16:22:56 10.71.57.0 3128-540 [10.71.57.0|get|0|24924|0|0|0|2f666c75782f776f726b2f6561722f6c617267652f416e696c6c6f5f6f68722e6a7067|]
+Jan 21 16:22:57 10.71.57.0 3128-540 open "/flux/work/ear/thumbs/ARAYA_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:57 10.71.57.0 3128-540 close "/flux/work/ear/thumbs/ARAYA_thumb.jpg" bytes read 6220 written 0
+Jan 21 16:22:57 10.71.57.0 3128-540 [10.71.57.0|get|0|6220|0|0|0|2f666c75782f776f726b2f6561722f7468756d62732f41524159415f7468756d622e6a7067|]
+Jan 21 16:22:57 10.71.57.0 3128-540 open "/flux/work/ear/thumbs/NYDA_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:57 10.71.57.0 3128-540 open "/flux/work/ear/thumbs/MISANO_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:57 10.71.57.0 3128-540 close "/flux/work/ear/thumbs/NYDA_thumb.jpg" bytes read 1106 written 0
+Jan 21 16:22:57 10.71.57.0 3128-540 [10.71.57.0|get|0|1106|0|0|0|2f666c75782f776f726b2f6561722f7468756d62732f4e5944415f7468756d622e6a7067|]
+Jan 21 16:22:57 10.71.57.0 3128-540 close "/flux/work/ear/thumbs/MISANO_thumb.jpg" bytes read 3130 written 0
+Jan 21 16:22:57 10.71.57.0 3128-540 [10.71.57.0|get|0|3130|0|0|0|2f666c75782f776f726b2f6561722f7468756d62732f4d4953414e4f5f7468756d622e6a7067|]
+Jan 21 16:22:57 10.71.57.0 3128-540 open "/flux/work/ear/thumbs/Koncis_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:57 10.71.57.0 3128-540 open "/flux/work/ear/thumbs/HUTUBI_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:57 10.71.57.0 3128-540 close "/flux/work/ear/thumbs/Koncis_thumb.jpg" bytes read 1357 written 0
+Jan 21 16:22:57 10.71.57.0 3128-540 [10.71.57.0|get|0|1357|0|0|0|2f666c75782f776f726b2f6561722f7468756d62732f4b6f6e6369735f7468756d622e6a7067|]
+Jan 21 16:22:57 10.71.57.0 3128-540 close "/flux/work/ear/thumbs/HUTUBI_thumb.jpg" bytes read 2142 written 0
+Jan 21 16:22:57 10.71.57.0 3128-540 [10.71.57.0|get|0|2142|0|0|0|2f666c75782f776f726b2f6561722f7468756d62732f4855545542495f7468756d622e6a7067|]
+Jan 21 16:22:57 10.71.57.0 3128-540 open "/flux/work/ear/thumbs/DAGOBAR_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:57 10.71.57.0 3128-540 open "/flux/work/ear/thumbs/CIRELLA_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:57 10.71.57.0 3128-540 close "/flux/work/ear/thumbs/DAGOBAR_thumb.jpg" bytes read 1871 written 0
+Jan 21 16:22:57 10.71.57.0 3128-540 [10.71.57.0|get|0|1871|0|0|0|2f666c75782f776f726b2f6561722f7468756d62732f4441474f4241525f7468756d622e6a7067|]
+Jan 21 16:22:57 10.71.57.0 3128-540 close "/flux/work/ear/thumbs/CIRELLA_thumb.jpg" bytes read 1984 written 0
+Jan 21 16:22:57 10.71.57.0 3128-540 [10.71.57.0|get|0|1984|0|0|0|2f666c75782f776f726b2f6561722f7468756d62732f434952454c4c415f7468756d622e6a7067|]
+Jan 21 16:22:57 10.71.57.0 3128-540 open "/flux/work/ear/thumbs/Apullo_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:57 10.71.57.0 3128-540 open "/flux/work/ear/thumbs/Anillo_thumb.jpg" flags READ mode 0666
+Jan 21 16:22:57 10.71.57.0 3128-540 close "/flux/work/ear/thumbs/Apullo_thumb.jpg" bytes read 1091 written 0
+Jan 21 16:22:57 10.71.57.0 3128-540 [10.71.57.0|get|0|1091|0|0|0|2f666c75782f776f726b2f6561722f7468756d62732f4170756c6c6f5f7468756d622e6a7067|]
+Jan 21 16:22:58 10.71.57.0 3128-540 close "/flux/work/ear/thumbs/Anillo_thumb.jpg" bytes read 1054 written 0
+Jan 21 16:22:58 10.71.57.0 3128-540 [10.71.57.0|get|1|1054|0|0|0|2f666c75782f776f726b2f6561722f7468756d62732f416e696c6c6f5f7468756d622e6a7067|]
+Jan 21 16:22:58 10.71.57.0 3128-540 open "/flux/work/neck/large/OXOMO_neck.jpg" flags READ mode 0666
+Jan 21 16:22:58 10.71.57.0 3128-540 open "/flux/work/neck/large/BONITA_neck.jpg" flags READ mode 0666
+Jan 21 16:22:58 10.71.57.0 3128-540 close "/flux/work/neck/large/OXOMO_neck.jpg" bytes read 54931 written 0
+Jan 21 16:22:58 10.71.57.0 3128-540 [10.71.57.0|get|0|54931|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f4f584f4d4f5f6e65636b2e6a7067|]
+Jan 21 16:22:58 10.71.57.0 3128-540 close "/flux/work/neck/large/BONITA_neck.jpg" bytes read 25594 written 0
+Jan 21 16:22:58 10.71.57.0 3128-540 [10.71.57.0|get|0|25594|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f424f4e4954415f6e65636b2e6a7067|]
+Jan 21 16:22:58 10.71.57.0 3128-540 open "/flux/work/neck/large/ZIBLIN_neck.jpg" flags READ mode 0666
+Jan 21 16:22:58 10.71.57.0 3128-540 open "/flux/work/neck/large/YALGA_neck.jpg" flags READ mode 0666
+Jan 21 16:22:58 10.71.57.0 3128-540 close "/flux/work/neck/large/ZIBLIN_neck.jpg" bytes read 23191 written 0
+Jan 21 16:22:58 10.71.57.0 3128-540 [10.71.57.0|get|0|23191|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f5a49424c494e5f6e65636b2e6a7067|]
+Jan 21 16:22:58 10.71.57.0 3128-540 open "/flux/work/neck/large/Xanthi_neck.jpg" flags READ mode 0666
+Jan 21 16:22:58 10.71.57.0 3128-540 close "/flux/work/neck/large/YALGA_neck.jpg" bytes read 20014 written 0
+Jan 21 16:22:58 10.71.57.0 3128-540 [10.71.57.0|get|0|20014|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f59414c47415f6e65636b2e6a7067|]
+Jan 21 16:22:58 10.71.57.0 3128-540 open "/flux/work/neck/large/XOO1_neck.jpg" flags READ mode 0666
+Jan 21 16:22:58 10.71.57.0 3128-540 close "/flux/work/neck/large/Xanthi_neck.jpg" bytes read 26121 written 0
+Jan 21 16:22:58 10.71.57.0 3128-540 [10.71.57.0|get|0|26121|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f58616e7468695f6e65636b2e6a7067|]
+Jan 21 16:22:58 10.71.57.0 3128-540 open "/flux/work/neck/large/WITTENBERG_neck.jpg" flags READ mode 0666
+Jan 21 16:22:58 10.71.57.0 3128-540 close "/flux/work/neck/large/XOO1_neck.jpg" bytes read 40433 written 0
+Jan 21 16:22:58 10.71.57.0 3128-540 [10.71.57.0|get|0|40433|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f584f4f315f6e65636b2e6a7067|]
+Jan 21 16:22:59 10.71.57.0 3128-540 open "/flux/work/neck/large/WANDLABE_neck.jpg" flags READ mode 0666
+Jan 21 16:22:59 10.71.57.0 3128-540 close "/flux/work/neck/large/WITTENBERG_neck.jpg" bytes read 32545 written 0
+Jan 21 16:22:59 10.71.57.0 3128-540 [10.71.57.0|get|1|32545|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f57495454454e424552475f6e65636b2e6a7067|]
+Jan 21 16:22:59 10.71.57.0 3128-540 open "/flux/work/neck/large/ULURU_neck.jpg" flags READ mode 0666
+Jan 21 16:22:59 10.71.57.0 3128-540 close "/flux/work/neck/large/WANDLABE_neck.jpg" bytes read 11546 written 0
+Jan 21 16:22:59 10.71.57.0 3128-540 [10.71.57.0|get|0|11546|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f57414e444c4142455f6e65636b2e6a7067|]
+Jan 21 16:22:59 10.71.57.0 3128-540 open "/flux/work/neck/large/TURDA_neck.jpg" flags READ mode 0666
+Jan 21 16:22:59 10.71.57.0 3128-540 close "/flux/work/neck/large/ULURU_neck.jpg" bytes read 15592 written 0
+Jan 21 16:22:59 10.71.57.0 3128-540 [10.71.57.0|get|0|15592|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f554c5552555f6e65636b2e6a7067|]
+Jan 21 16:22:59 10.71.57.0 3128-540 close "/flux/work/neck/large/TURDA_neck.jpg" bytes read 19900 written 0
+Jan 21 16:22:59 10.71.57.0 3128-540 [10.71.57.0|get|0|19900|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f54555244415f6e65636b2e6a7067|]
+Jan 21 16:22:59 10.71.57.0 3128-540 open "/flux/work/neck/large/OROKA_neck.jpg" flags READ mode 0666
+Jan 21 16:22:59 10.71.57.0 3128-540 open "/flux/work/neck/large/MEOTA_neck.jpg" flags READ mode 0666
+Jan 21 16:22:59 10.71.57.0 3128-540 close "/flux/work/neck/large/OROKA_neck.jpg" bytes read 18595 written 0
+Jan 21 16:22:59 10.71.57.0 3128-540 [10.71.57.0|get|0|18595|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f4f524f4b415f6e65636b2e6a7067|]
+Jan 21 16:22:59 10.71.57.0 3128-540 close "/flux/work/neck/large/MEOTA_neck.jpg" bytes read 21774 written 0
+Jan 21 16:22:59 10.71.57.0 3128-540 [10.71.57.0|get|0|21774|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f4d454f54415f6e65636b2e6a7067|]
+Jan 21 16:22:59 10.71.57.0 3128-540 open "/flux/work/neck/large/LORICA_neck.jpg" flags READ mode 0666
+Jan 21 16:22:59 10.71.57.0 3128-540 open "/flux/work/neck/large/KARELI_neck.jpg" flags READ mode 0666
+Jan 21 16:22:59 10.71.57.0 3128-540 close "/flux/work/neck/large/LORICA_neck.jpg" bytes read 22587 written 0
+Jan 21 16:22:59 10.71.57.0 3128-540 [10.71.57.0|get|0|22587|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f4c4f524943415f6e65636b2e6a7067|]
+Jan 21 16:22:59 10.71.57.0 3128-540 close "/flux/work/neck/large/KARELI_neck.jpg" bytes read 16721 written 0
+Jan 21 16:22:59 10.71.57.0 3128-540 [10.71.57.0|get|0|16721|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f4b4152454c495f6e65636b2e6a7067|]
+Jan 21 16:22:59 10.71.57.0 3128-540 open "/flux/work/neck/large/Hull_neck.jpg" flags READ mode 0666
+Jan 21 16:23:00 10.71.57.0 3128-540 open "/flux/work/neck/large/HOBOKSAR_neck.jpg" flags READ mode 0666
+Jan 21 16:23:00 10.71.57.0 3128-540 close "/flux/work/neck/large/HOBOKSAR_neck.jpg" bytes read 26360 written 0
+Jan 21 16:23:00 10.71.57.0 3128-540 [10.71.57.0|get|0|26360|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f484f424f4b5341525f6e65636b2e6a7067|]
+Jan 21 16:23:00 10.71.57.0 3128-540 close "/flux/work/neck/large/Hull_neck.jpg" bytes read 19926 written 0
+Jan 21 16:23:00 10.71.57.0 3128-540 [10.71.57.0|get|1|19926|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f48756c6c5f6e65636b2e6a7067|]
+Jan 21 16:23:00 10.71.57.0 3128-540 open "/flux/work/neck/large/HANRA_neck.jpg" flags READ mode 0666
+Jan 21 16:23:00 10.71.57.0 3128-540 open "/flux/work/neck/large/BOMBILLA_neck.jpg" flags READ mode 0666
+Jan 21 16:23:00 10.71.57.0 3128-540 close "/flux/work/neck/large/HANRA_neck.jpg" bytes read 12041 written 0
+Jan 21 16:23:00 10.71.57.0 3128-540 [10.71.57.0|get|0|12041|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f48414e52415f6e65636b2e6a7067|]
+Jan 21 16:23:00 10.71.57.0 3128-540 close "/flux/work/neck/large/BOMBILLA_neck.jpg" bytes read 12080 written 0
+Jan 21 16:23:00 10.71.57.0 3128-540 [10.71.57.0|get|0|12080|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f424f4d42494c4c415f6e65636b2e6a7067|]
+Jan 21 16:23:00 10.71.57.0 3128-540 open "/flux/work/neck/large/BOISE_neck.jpg" flags READ mode 0666
+Jan 21 16:23:00 10.71.57.0 3128-540 open "/flux/work/neck/large/ALUTSCHA_neck.jpg" flags READ mode 0666
+Jan 21 16:23:01 10.71.57.0 3128-540 close "/flux/work/neck/large/BOISE_neck.jpg" bytes read 17011 written 0
+Jan 21 16:23:01 10.71.57.0 3128-540 [10.71.57.0|get|1|17011|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f424f4953455f6e65636b2e6a7067|]
+Jan 21 16:23:01 10.71.57.0 3128-540 close "/flux/work/neck/large/ALUTSCHA_neck.jpg" bytes read 17706 written 0
+Jan 21 16:23:01 10.71.57.0 3128-540 [10.71.57.0|get|1|17706|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f414c5554534348415f6e65636b2e6a7067|]
+Jan 21 16:23:01 10.71.57.0 3128-540 open "/flux/work/neck/large/AGNITA_neck.jpg" flags READ mode 0666
+Jan 21 16:23:01 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/OXOMO_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:01 10.71.57.0 3128-540 close "/flux/work/neck/large/AGNITA_neck.jpg" bytes read 16613 written 0
+Jan 21 16:23:01 10.71.57.0 3128-540 [10.71.57.0|get|0|16613|0|0|0|2f666c75782f776f726b2f6e65636b2f6c617267652f41474e4954415f6e65636b2e6a7067|]
+Jan 21 16:23:01 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/OXOMO_thumb.jpg" bytes read 4518 written 0
+Jan 21 16:23:01 10.71.57.0 3128-540 [10.71.57.0|get|0|4518|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f4f584f4d4f5f7468756d622e6a7067|]
+Jan 21 16:23:01 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/ZIBLIN_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:01 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/BONITA_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:01 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/ZIBLIN_thumb.jpg" bytes read 2146 written 0
+Jan 21 16:23:01 10.71.57.0 3128-540 [10.71.57.0|get|0|2146|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f5a49424c494e5f7468756d622e6a7067|]
+Jan 21 16:23:01 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/BONITA_thumb.jpg" bytes read 2216 written 0
+Jan 21 16:23:01 10.71.57.0 3128-540 [10.71.57.0|get|0|2216|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f424f4e4954415f7468756d622e6a7067|]
+Jan 21 16:23:01 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/YALGA_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:01 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/Xanthi_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:01 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/YALGA_thumb.jpg" bytes read 1616 written 0
+Jan 21 16:23:01 10.71.57.0 3128-540 [10.71.57.0|get|0|1616|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f59414c47415f7468756d622e6a7067|]
+Jan 21 16:23:01 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/Xanthi_thumb.jpg" bytes read 1906 written 0
+Jan 21 16:23:01 10.71.57.0 3128-540 [10.71.57.0|get|0|1906|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f58616e7468695f7468756d622e6a7067|]
+Jan 21 16:23:01 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/XOO1_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:01 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/WITTENBERG_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:02 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/XOO1_thumb.jpg" bytes read 2179 written 0
+Jan 21 16:23:02 10.71.57.0 3128-540 [10.71.57.0|get|1|2179|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f584f4f315f7468756d622e6a7067|]
+Jan 21 16:23:02 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/WITTENBERG_thumb.jpg" bytes read 944 written 0
+Jan 21 16:23:02 10.71.57.0 3128-540 [10.71.57.0|get|1|944|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f57495454454e424552475f7468756d622e6a7067|]
+Jan 21 16:23:02 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/WANDLABE_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:02 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/ULURU_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:02 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/WANDLABE_thumb.jpg" bytes read 1182 written 0
+Jan 21 16:23:02 10.71.57.0 3128-540 [10.71.57.0|get|0|1182|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f57414e444c4142455f7468756d622e6a7067|]
+Jan 21 16:23:02 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/ULURU_thumb.jpg" bytes read 2337 written 0
+Jan 21 16:23:02 10.71.57.0 3128-540 [10.71.57.0|get|0|2337|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f554c5552555f7468756d622e6a7067|]
+Jan 21 16:23:02 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/TURDA_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:02 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/OROKA_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:02 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/TURDA_thumb.jpg" bytes read 2259 written 0
+Jan 21 16:23:02 10.71.57.0 3128-540 [10.71.57.0|get|0|2259|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f54555244415f7468756d622e6a7067|]
+Jan 21 16:23:02 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/OROKA_thumb.jpg" bytes read 1501 written 0
+Jan 21 16:23:02 10.71.57.0 3128-540 [10.71.57.0|get|0|1501|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f4f524f4b415f7468756d622e6a7067|]
+Jan 21 16:23:02 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/MEOTA_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:02 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/LORICA_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:02 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/MEOTA_thumb.jpg" bytes read 2090 written 0
+Jan 21 16:23:02 10.71.57.0 3128-540 [10.71.57.0|get|0|2090|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f4d454f54415f7468756d622e6a7067|]
+Jan 21 16:23:02 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/LORICA_thumb.jpg" bytes read 1931 written 0
+Jan 21 16:23:02 10.71.57.0 3128-540 [10.71.57.0|get|0|1931|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f4c4f524943415f7468756d622e6a7067|]
+Jan 21 16:23:02 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/KARELI_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:02 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/Hull_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:02 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/KARELI_thumb.jpg" bytes read 1409 written 0
+Jan 21 16:23:02 10.71.57.0 3128-540 [10.71.57.0|get|0|1409|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f4b4152454c495f7468756d622e6a7067|]
+Jan 21 16:23:02 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/Hull_thumb.jpg" bytes read 1438 written 0
+Jan 21 16:23:02 10.71.57.0 3128-540 [10.71.57.0|get|0|1438|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f48756c6c5f7468756d622e6a7067|]
+Jan 21 16:23:03 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/HOBOKSAR_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:03 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/HANRA_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:03 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/HOBOKSAR_thumb.jpg" bytes read 1812 written 0
+Jan 21 16:23:03 10.71.57.0 3128-540 [10.71.57.0|get|0|1812|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f484f424f4b5341525f7468756d622e6a7067|]
+Jan 21 16:23:03 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/HANRA_thumb.jpg" bytes read 1241 written 0
+Jan 21 16:23:03 10.71.57.0 3128-540 [10.71.57.0|get|0|1241|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f48414e52415f7468756d622e6a7067|]
+Jan 21 16:23:03 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/BOMBILLA_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:03 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/BOISE_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:03 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/BOMBILLA_thumb.jpg" bytes read 2267 written 0
+Jan 21 16:23:03 10.71.57.0 3128-540 [10.71.57.0|get|0|2267|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f424f4d42494c4c415f7468756d622e6a7067|]
+Jan 21 16:23:03 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/BOISE_thumb.jpg" bytes read 2438 written 0
+Jan 21 16:23:03 10.71.57.0 3128-540 [10.71.57.0|get|0|2438|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f424f4953455f7468756d622e6a7067|]
+Jan 21 16:23:03 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/ALUTSCHA_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:03 10.71.57.0 3128-540 open "/flux/work/neck/thumbs/AGNITA_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:03 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/ALUTSCHA_thumb.jpg" bytes read 1475 written 0
+Jan 21 16:23:03 10.71.57.0 3128-540 [10.71.57.0|get|0|1475|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f414c5554534348415f7468756d622e6a7067|]
+Jan 21 16:23:03 10.71.57.0 3128-540 close "/flux/work/neck/thumbs/AGNITA_thumb.jpg" bytes read 1858 written 0
+Jan 21 16:23:03 10.71.57.0 3128-540 [10.71.57.0|get|0|1858|0|0|0|2f666c75782f776f726b2f6e65636b2f7468756d62732f41474e4954415f7468756d622e6a7067|]
+Jan 21 16:23:03 10.71.57.0 3128-540 open "/flux/work/pend/large/Semila_anh.jpg" flags READ mode 0666
+Jan 21 16:23:03 10.71.57.0 3128-540 open "/flux/work/pend/large/Sanofie_anh.jpg" flags READ mode 0666
+Jan 21 16:23:03 10.71.57.0 3128-540 close "/flux/work/pend/large/Semila_anh.jpg" bytes read 16219 written 0
+Jan 21 16:23:03 10.71.57.0 3128-540 [10.71.57.0|get|0|16219|0|0|0|2f666c75782f776f726b2f70656e642f6c617267652f53656d696c615f616e682e6a7067|]
+Jan 21 16:23:03 10.71.57.0 3128-540 close "/flux/work/pend/large/Sanofie_anh.jpg" bytes read 35792 written 0
+Jan 21 16:23:03 10.71.57.0 3128-540 [10.71.57.0|get|0|35792|0|0|0|2f666c75782f776f726b2f70656e642f6c617267652f53616e6f6669655f616e682e6a7067|]
+Jan 21 16:23:04 10.71.57.0 3128-540 open "/flux/work/pend/large/Pimpollo_anh.jpg" flags READ mode 0666
+Jan 21 16:23:04 10.71.57.0 3128-540 open "/flux/work/pend/large/Fugo_anh.jpg" flags READ mode 0666
+Jan 21 16:23:04 10.71.57.0 3128-540 close "/flux/work/pend/large/Pimpollo_anh.jpg" bytes read 21191 written 0
+Jan 21 16:23:04 10.71.57.0 3128-540 [10.71.57.0|get|0|21191|0|0|0|2f666c75782f776f726b2f70656e642f6c617267652f50696d706f6c6c6f5f616e682e6a7067|]
+Jan 21 16:23:04 10.71.57.0 3128-540 close "/flux/work/pend/large/Fugo_anh.jpg" bytes read 13911 written 0
+Jan 21 16:23:04 10.71.57.0 3128-540 [10.71.57.0|get|0|13911|0|0|0|2f666c75782f776f726b2f70656e642f6c617267652f4675676f5f616e682e6a7067|]
+Jan 21 16:23:04 10.71.57.0 3128-540 open "/flux/work/pend/large/Capullo_anh.jpg" flags READ mode 0666
+Jan 21 16:23:04 10.71.57.0 3128-540 open "/flux/work/pend/large/Capulla_anh.jpg" flags READ mode 0666
+Jan 21 16:23:04 10.71.57.0 3128-540 close "/flux/work/pend/large/Capullo_anh.jpg" bytes read 44866 written 0
+Jan 21 16:23:04 10.71.57.0 3128-540 [10.71.57.0|get|0|44866|0|0|0|2f666c75782f776f726b2f70656e642f6c617267652f436170756c6c6f5f616e682e6a7067|]
+Jan 21 16:23:04 10.71.57.0 3128-540 close "/flux/work/pend/large/Capulla_anh.jpg" bytes read 23946 written 0
+Jan 21 16:23:04 10.71.57.0 3128-540 [10.71.57.0|get|0|23946|0|0|0|2f666c75782f776f726b2f70656e642f6c617267652f436170756c6c615f616e682e6a7067|]
+Jan 21 16:23:04 10.71.57.0 3128-540 open "/flux/work/pend/large/Biloba_anh.jpg" flags READ mode 0666
+Jan 21 16:23:04 10.71.57.0 3128-540 close "/flux/work/pend/large/Biloba_anh.jpg" bytes read 21994 written 0
+Jan 21 16:23:04 10.71.57.0 3128-540 [10.71.57.0|get|0|21994|0|0|0|2f666c75782f776f726b2f70656e642f6c617267652f42696c6f62615f616e682e6a7067|]
+Jan 21 16:23:04 10.71.57.0 3128-540 open "/flux/work/pend/thumbs/Semila_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:04 10.71.57.0 3128-540 close "/flux/work/pend/thumbs/Semila_thumb.jpg" bytes read 1409 written 0
+Jan 21 16:23:04 10.71.57.0 3128-540 [10.71.57.0|get|0|1409|0|0|0|2f666c75782f776f726b2f70656e642f7468756d62732f53656d696c615f7468756d622e6a7067|]
+Jan 21 16:23:04 10.71.57.0 3128-540 open "/flux/work/pend/thumbs/Sanofie_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:04 10.71.57.0 3128-540 open "/flux/work/pend/thumbs/Pimpollo_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:04 10.71.57.0 3128-540 close "/flux/work/pend/thumbs/Sanofie_thumb.jpg" bytes read 2534 written 0
+Jan 21 16:23:04 10.71.57.0 3128-540 [10.71.57.0|get|0|2534|0|0|0|2f666c75782f776f726b2f70656e642f7468756d62732f53616e6f6669655f7468756d622e6a7067|]
+Jan 21 16:23:04 10.71.57.0 3128-540 close "/flux/work/pend/thumbs/Pimpollo_thumb.jpg" bytes read 1549 written 0
+Jan 21 16:23:04 10.71.57.0 3128-540 [10.71.57.0|get|0|1549|0|0|0|2f666c75782f776f726b2f70656e642f7468756d62732f50696d706f6c6c6f5f7468756d622e6a7067|]
+Jan 21 16:23:05 10.71.57.0 3128-540 open "/flux/work/pend/thumbs/Fugo_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:05 10.71.57.0 3128-540 open "/flux/work/pend/thumbs/Capullo_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:05 10.71.57.0 3128-540 close "/flux/work/pend/thumbs/Fugo_thumb.jpg" bytes read 1000 written 0
+Jan 21 16:23:05 10.71.57.0 3128-540 [10.71.57.0|get|0|1000|0|0|0|2f666c75782f776f726b2f70656e642f7468756d62732f4675676f5f7468756d622e6a7067|]
+Jan 21 16:23:05 10.71.57.0 3128-540 close "/flux/work/pend/thumbs/Capullo_thumb.jpg" bytes read 3058 written 0
+Jan 21 16:23:05 10.71.57.0 3128-540 [10.71.57.0|get|0|3058|0|0|0|2f666c75782f776f726b2f70656e642f7468756d62732f436170756c6c6f5f7468756d622e6a7067|]
+Jan 21 16:23:05 10.71.57.0 3128-540 open "/flux/work/pend/thumbs/Capulla_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:05 10.71.57.0 3128-540 open "/flux/work/pend/thumbs/Biloba_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:05 10.71.57.0 3128-540 close "/flux/work/pend/thumbs/Capulla_thumb.jpg" bytes read 1421 written 0
+Jan 21 16:23:05 10.71.57.0 3128-540 [10.71.57.0|get|0|1421|0|0|0|2f666c75782f776f726b2f70656e642f7468756d62732f436170756c6c615f7468756d622e6a7067|]
+Jan 21 16:23:05 10.71.57.0 3128-540 close "/flux/work/pend/thumbs/Biloba_thumb.jpg" bytes read 1656 written 0
+Jan 21 16:23:05 10.71.57.0 3128-540 [10.71.57.0|get|0|1656|0|0|0|2f666c75782f776f726b2f70656e642f7468756d62732f42696c6f62615f7468756d622e6a7067|]
+Jan 21 16:23:05 10.71.57.0 3128-540 open "/flux/work/ring/large/ISOMO_14_ring.jpg" flags READ mode 0666
+Jan 21 16:23:05 10.71.57.0 3128-540 open "/flux/work/ring/large/ISOMO_12_ring.jpg" flags READ mode 0666
+Jan 21 16:23:06 10.71.57.0 3128-540 close "/flux/work/ring/large/ISOMO_12_ring.jpg" bytes read 13533 written 0
+Jan 21 16:23:06 10.71.57.0 3128-540 [10.71.57.0|get|1|13533|0|0|0|2f666c75782f776f726b2f72696e672f6c617267652f49534f4d4f5f31325f72696e672e6a7067|]
+Jan 21 16:23:06 10.71.57.0 3128-540 close "/flux/work/ring/large/ISOMO_14_ring.jpg" bytes read 13435 written 0
+Jan 21 16:23:06 10.71.57.0 3128-540 [10.71.57.0|get|1|13435|0|0|0|2f666c75782f776f726b2f72696e672f6c617267652f49534f4d4f5f31345f72696e672e6a7067|]
+Jan 21 16:23:06 10.71.57.0 3128-540 open "/flux/work/ring/large/ISOMO_02_ring.jpg" flags READ mode 0666
+Jan 21 16:23:06 10.71.57.0 3128-540 open "/flux/work/ring/large/2_ISOMOs4_ring.jpg" flags READ mode 0666
+Jan 21 16:23:06 10.71.57.0 3128-540 close "/flux/work/ring/large/ISOMO_02_ring.jpg" bytes read 14131 written 0
+Jan 21 16:23:06 10.71.57.0 3128-540 [10.71.57.0|get|0|14131|0|0|0|2f666c75782f776f726b2f72696e672f6c617267652f49534f4d4f5f30325f72696e672e6a7067|]
+Jan 21 16:23:06 10.71.57.0 3128-540 open "/flux/work/ring/large/2_ISOMOs3_ring.jpg" flags READ mode 0666
+Jan 21 16:23:06 10.71.57.0 3128-540 close "/flux/work/ring/large/2_ISOMOs4_ring.jpg" bytes read 11031 written 0
+Jan 21 16:23:06 10.71.57.0 3128-540 [10.71.57.0|get|0|11031|0|0|0|2f666c75782f776f726b2f72696e672f6c617267652f325f49534f4d4f73345f72696e672e6a7067|]
+Jan 21 16:23:06 10.71.57.0 3128-540 open "/flux/work/ring/large/2_ISOMOs2_ring.jpg" flags READ mode 0666
+Jan 21 16:23:06 10.71.57.0 3128-540 close "/flux/work/ring/large/2_ISOMOs3_ring.jpg" bytes read 13715 written 0
+Jan 21 16:23:06 10.71.57.0 3128-540 [10.71.57.0|get|0|13715|0|0|0|2f666c75782f776f726b2f72696e672f6c617267652f325f49534f4d4f73335f72696e672e6a7067|]
+Jan 21 16:23:07 10.71.57.0 3128-540 close "/flux/work/ring/large/2_ISOMOs2_ring.jpg" bytes read 18776 written 0
+Jan 21 16:23:07 10.71.57.0 3128-540 [10.71.57.0|get|1|18776|0|0|0|2f666c75782f776f726b2f72696e672f6c617267652f325f49534f4d4f73325f72696e672e6a7067|]
+Jan 21 16:23:07 10.71.57.0 3128-540 open "/flux/work/ring/large/2_ISOMOs1_ring.jpg" flags READ mode 0666
+Jan 21 16:23:07 10.71.57.0 3128-540 close "/flux/work/ring/large/2_ISOMOs1_ring.jpg" bytes read 20112 written 0
+Jan 21 16:23:07 10.71.57.0 3128-540 [10.71.57.0|get|0|20112|0|0|0|2f666c75782f776f726b2f72696e672f6c617267652f325f49534f4d4f73315f72696e672e6a7067|]
+Jan 21 16:23:07 10.71.57.0 3128-540 open "/flux/work/ring/thumbs/ISOMO_14_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:07 10.71.57.0 3128-540 close "/flux/work/ring/thumbs/ISOMO_14_thumb.jpg" bytes read 1538 written 0
+Jan 21 16:23:07 10.71.57.0 3128-540 [10.71.57.0|get|0|1538|0|0|0|2f666c75782f776f726b2f72696e672f7468756d62732f49534f4d4f5f31345f7468756d622e6a7067|]
+Jan 21 16:23:07 10.71.57.0 3128-540 open "/flux/work/ring/thumbs/ISOMO_12_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:07 10.71.57.0 3128-540 open "/flux/work/ring/thumbs/ISOMO_02_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:07 10.71.57.0 3128-540 close "/flux/work/ring/thumbs/ISOMO_12_thumb.jpg" bytes read 1389 written 0
+Jan 21 16:23:07 10.71.57.0 3128-540 [10.71.57.0|get|0|1389|0|0|0|2f666c75782f776f726b2f72696e672f7468756d62732f49534f4d4f5f31325f7468756d622e6a7067|]
+Jan 21 16:23:07 10.71.57.0 3128-540 close "/flux/work/ring/thumbs/ISOMO_02_thumb.jpg" bytes read 1257 written 0
+Jan 21 16:23:07 10.71.57.0 3128-540 [10.71.57.0|get|0|1257|0|0|0|2f666c75782f776f726b2f72696e672f7468756d62732f49534f4d4f5f30325f7468756d622e6a7067|]
+Jan 21 16:23:07 10.71.57.0 3128-540 open "/flux/work/ring/thumbs/2_ISOMOs4_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:07 10.71.57.0 3128-540 open "/flux/work/ring/thumbs/2_ISOMOs3_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:07 10.71.57.0 3128-540 close "/flux/work/ring/thumbs/2_ISOMOs4_thumb.jpg" bytes read 1328 written 0
+Jan 21 16:23:07 10.71.57.0 3128-540 [10.71.57.0|get|0|1328|0|0|0|2f666c75782f776f726b2f72696e672f7468756d62732f325f49534f4d4f73345f7468756d622e6a7067|]
+Jan 21 16:23:07 10.71.57.0 3128-540 close "/flux/work/ring/thumbs/2_ISOMOs3_thumb.jpg" bytes read 1552 written 0
+Jan 21 16:23:07 10.71.57.0 3128-540 [10.71.57.0|get|0|1552|0|0|0|2f666c75782f776f726b2f72696e672f7468756d62732f325f49534f4d4f73335f7468756d622e6a7067|]
+Jan 21 16:23:07 10.71.57.0 3128-540 open "/flux/work/ring/thumbs/2_ISOMOs2_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:07 10.71.57.0 3128-540 open "/flux/work/ring/thumbs/2_ISOMOs1_thumb.jpg" flags READ mode 0666
+Jan 21 16:23:07 10.71.57.0 3128-540 close "/flux/work/ring/thumbs/2_ISOMOs2_thumb.jpg" bytes read 2006 written 0
+Jan 21 16:23:07 10.71.57.0 3128-540 [10.71.57.0|get|0|2006|0|0|0|2f666c75782f776f726b2f72696e672f7468756d62732f325f49534f4d4f73325f7468756d622e6a7067|]
+Jan 21 16:23:08 10.71.57.0 3128-540 close "/flux/work/ring/thumbs/2_ISOMOs1_thumb.jpg" bytes read 1873 written 0
+Jan 21 16:23:08 10.71.57.0 3128-540 [10.71.57.0|get|1|1873|0|0|0|2f666c75782f776f726b2f72696e672f7468756d62732f325f49534f4d4f73315f7468756d622e6a7067|]
+Jan 21 16:23:08 10.71.57.0 3128-540 open "/images/004.jpg" flags READ mode 0666
+Jan 21 16:23:08 10.71.57.0 3128-540 open "/images/005.jpg" flags READ mode 0666
+Jan 21 16:23:08 10.71.57.0 3128-540 close "/images/004.jpg" bytes read 83396 written 0
+Jan 21 16:23:08 10.71.57.0 3128-540 [10.71.57.0|get|0|83396|0|0|0|2f696d616765732f3030342e6a7067|]
+Jan 21 16:23:08 10.71.57.0 3128-540 close "/images/005.jpg" bytes read 67085 written 0
+Jan 21 16:23:08 10.71.57.0 3128-540 [10.71.57.0|get|0|67085|0|0|0|2f696d616765732f3030352e6a7067|]
+Jan 21 16:23:08 10.71.57.0 3128-540 open "/images/003.jpg" flags READ mode 0666
+Jan 21 16:23:08 10.71.57.0 3128-540 open "/images/002.jpg" flags READ mode 0666
+Jan 21 16:23:08 10.71.57.0 3128-540 close "/images/003.jpg" bytes read 95907 written 0
+Jan 21 16:23:08 10.71.57.0 3128-540 [10.71.57.0|get|0|95907|0|0|0|2f696d616765732f3030332e6a7067|]
+Jan 21 16:23:08 10.71.57.0 3128-540 close "/images/002.jpg" bytes read 60897 written 0
+Jan 21 16:23:08 10.71.57.0 3128-540 [10.71.57.0|get|0|60897|0|0|0|2f696d616765732f3030322e6a7067|]
+Jan 21 16:23:08 10.71.57.0 3128-540 open "/images/001.jpg" flags READ mode 0666
+Jan 21 16:23:08 10.71.57.0 3128-540 open "/js/jquery.zuse.min.js" flags READ mode 0666
+Jan 21 16:23:08 10.71.57.0 3128-540 close "/images/001.jpg" bytes read 103685 written 0
+Jan 21 16:23:08 10.71.57.0 3128-540 [10.71.57.0|get|0|103685|0|0|0|2f696d616765732f3030312e6a7067|]
+Jan 21 16:23:08 10.71.57.0 3128-540 close "/js/jquery.zuse.min.js" bytes read 15180 written 0
+Jan 21 16:23:08 10.71.57.0 3128-540 [10.71.57.0|get|0|15180|0|0|0|2f6a732f6a71756572792e7a7573652e6d696e2e6a73|]
+Jan 21 16:23:09 10.71.57.0 3128-540 open "/js/jquery.min.js" flags READ mode 0666
+Jan 21 16:23:09 10.71.57.0 3128-540 open "/js/jquery.js" flags READ mode 0666
+Jan 21 16:23:09 10.71.57.0 3128-540 close "/js/jquery.js" bytes read 54075 written 0
+Jan 21 16:23:09 10.71.57.0 3128-540 [10.71.57.0|get|0|54075|0|0|0|2f6a732f6a71756572792e6a73|]
+Jan 21 16:23:09 10.71.57.0 3128-540 close "/js/jquery.min.js" bytes read 78601 written 0
+Jan 21 16:23:09 10.71.57.0 3128-540 [10.71.57.0|get|0|78601|0|0|0|2f6a732f6a71756572792e6d696e2e6a73|]
+Jan 21 16:23:09 10.71.57.0 3128-540 open "/js/jquery.innerfade.js" flags READ mode 0666
+Jan 21 16:23:09 10.71.57.0 3128-540 open "/js/jquery-1.4.4.min.js" flags READ mode 0666
+Jan 21 16:23:09 10.71.57.0 3128-540 close "/js/jquery.innerfade.js" bytes read 4926 written 0
+Jan 21 16:23:09 10.71.57.0 3128-540 [10.71.57.0|get|0|4926|0|0|0|2f6a732f6a71756572792e696e6e6572666164652e6a73|]
+Jan 21 16:23:09 10.71.57.0 3128-540 close "/js/jquery-1.4.4.min.js" bytes read 78601 written 0
+Jan 21 16:23:09 10.71.57.0 3128-540 [10.71.57.0|get|0|78601|0|0|0|2f6a732f6a71756572792d312e342e342e6d696e2e6a73|]
+Jan 21 16:23:09 10.71.57.0 3128-540 open "/links/MUNICH-ROSI-24_link.html" flags READ mode 0666
+Jan 21 16:23:09 10.71.57.0 3128-540 open "/links/MUNICH-24-1_link.html" flags READ mode 0666
+Jan 21 16:23:09 10.71.57.0 3128-540 close "/links/MUNICH-ROSI-24_link.html" bytes read 419 written 0
+Jan 21 16:23:09 10.71.57.0 3128-540 [10.71.57.0|get|0|419|0|0|0|2f6c696e6b732f4d554e4943482d524f53492d32345f6c696e6b2e68746d6c|]
+Jan 21 16:23:09 10.71.57.0 3128-540 close "/links/MUNICH-24-1_link.html" bytes read 408 written 0
+Jan 21 16:23:09 10.71.57.0 3128-540 [10.71.57.0|get|0|408|0|0|0|2f6c696e6b732f4d554e4943482d32342d315f6c696e6b2e68746d6c|]
+Jan 21 16:23:09 10.71.57.0 3128-540 open "/links/VESZPREM_link.html" flags READ mode 0666
+Jan 21 16:23:09 10.71.57.0 3128-540 open "/links/Ddorf-Becker_link.html" flags READ mode 0666
+Jan 21 16:23:10 10.71.57.0 3128-540 close "/links/VESZPREM_link.html" bytes read 434 written 0
+Jan 21 16:23:10 10.71.57.0 3128-540 [10.71.57.0|get|1|434|0|0|0|2f6c696e6b732f5645535a5052454d5f6c696e6b2e68746d6c|]
+Jan 21 16:23:10 10.71.57.0 3128-540 close "/links/Ddorf-Becker_link.html" bytes read 468 written 0
+Jan 21 16:23:10 10.71.57.0 3128-540 [10.71.57.0|get|1|468|0|0|0|2f6c696e6b732f44646f72662d4265636b65725f6c696e6b2e68746d6c|]
+Jan 21 16:23:10 10.71.57.0 3128-540 open "/links/Goldschmiedehaus2_link.html" flags READ mode 0666
+Jan 21 16:23:10 10.71.57.0 3128-540 open "/links/Goldschmiedehaus_link.html" flags READ mode 0666
+Jan 21 16:23:10 10.71.57.0 3128-540 close "/links/Goldschmiedehaus2_link.html" bytes read 440 written 0
+Jan 21 16:23:10 10.71.57.0 3128-540 [10.71.57.0|get|0|440|0|0|0|2f6c696e6b732f476f6c647363686d6965646568617573325f6c696e6b2e68746d6c|]
+Jan 21 16:23:10 10.71.57.0 3128-540 close "/links/Goldschmiedehaus_link.html" bytes read 423 written 0
+Jan 21 16:23:10 10.71.57.0 3128-540 [10.71.57.0|get|0|423|0|0|0|2f6c696e6b732f476f6c647363686d69656465686175735f6c696e6b2e68746d6c|]
+Jan 21 16:23:10 10.71.57.0 3128-540 open "/links/GALERIE_HANDWERK_link.html" flags READ mode 0666
+Jan 21 16:23:10 10.71.57.0 3128-540 open "/links/KLIMT-SCHMAGOLD.html" flags READ mode 0666
+Jan 21 16:23:10 10.71.57.0 3128-540 close "/links/GALERIE_HANDWERK_link.html" bytes read 372 written 0
+Jan 21 16:23:10 10.71.57.0 3128-540 [10.71.57.0|get|0|372|0|0|0|2f6c696e6b732f47414c455249455f48414e445745524b5f6c696e6b2e68746d6c|]
+Jan 21 16:23:10 10.71.57.0 3128-540 close "/links/KLIMT-SCHMAGOLD.html" bytes read 423 written 0
+Jan 21 16:23:10 10.71.57.0 3128-540 [10.71.57.0|get|0|423|0|0|0|2f6c696e6b732f4b4c494d542d5343484d41474f4c442e68746d6c|]
+Jan 21 16:23:10 10.71.57.0 3128-540 open "/links/SCHMAGOLD.html" flags READ mode 0666
+Jan 21 16:23:10 10.71.57.0 3128-540 open "/links/INSTAGRAM_J&G.html" flags READ mode 0666
+Jan 21 16:23:10 10.71.57.0 3128-540 close "/links/SCHMAGOLD.html" bytes read 351 written 0
+Jan 21 16:23:10 10.71.57.0 3128-540 [10.71.57.0|get|0|351|0|0|0|2f6c696e6b732f5343484d41474f4c442e68746d6c|]
+Jan 21 16:23:10 10.71.57.0 3128-540 close "/links/INSTAGRAM_J&G.html" bytes read 375 written 0
+Jan 21 16:23:10 10.71.57.0 3128-540 [10.71.57.0|get|0|375|0|0|0|2f6c696e6b732f494e5354414752414d5f4a26472e68746d6c|]
+Jan 21 16:23:10 10.71.57.0 3128-540 open "/links/COLLECT_link.html" flags READ mode 0666
+Jan 21 16:23:10 10.71.57.0 3128-540 open "/links/artsy_COLLECT_link.html" flags READ mode 0666
+Jan 21 16:23:10 10.71.57.0 3128-540 close "/links/COLLECT_link.html" bytes read 377 written 0
+Jan 21 16:23:10 10.71.57.0 3128-540 [10.71.57.0|get|0|377|0|0|0|2f6c696e6b732f434f4c4c4543545f6c696e6b2e68746d6c|]
+Jan 21 16:23:11 10.71.57.0 3128-540 close "/links/artsy_COLLECT_link.html" bytes read 373 written 0
+Jan 21 16:23:11 10.71.57.0 3128-540 [10.71.57.0|get|1|373|0|0|0|2f6c696e6b732f61727473795f434f4c4c4543545f6c696e6b2e68746d6c|]
+Jan 21 16:23:11 10.71.57.0 3128-540 open "/links/VILNIUS_link.html" flags READ mode 0666
+Jan 21 16:23:11 10.71.57.0 3128-540 open "/links/JORDANOW_link.html" flags READ mode 0666
+Jan 21 16:23:11 10.71.57.0 3128-540 close "/links/VILNIUS_link.html" bytes read 417 written 0
+Jan 21 16:23:11 10.71.57.0 3128-540 [10.71.57.0|get|0|417|0|0|0|2f6c696e6b732f56494c4e4955535f6c696e6b2e68746d6c|]
+Jan 21 16:23:11 10.71.57.0 3128-540 close "/links/JORDANOW_link.html" bytes read 359 written 0
+Jan 21 16:23:11 10.71.57.0 3128-540 [10.71.57.0|get|0|359|0|0|0|2f6c696e6b732f4a4f5244414e4f575f6c696e6b2e68746d6c|]
+Jan 21 16:23:11 10.71.57.0 3128-540 open "/links/HIGHLIGHTS_link.html" flags READ mode 0666
+Jan 21 16:23:11 10.71.57.0 3128-540 open "/links/HIGH_yt_link.html" flags READ mode 0666
+Jan 21 16:23:11 10.71.57.0 3128-540 close "/links/HIGH_yt_link.html" bytes read 371 written 0
+Jan 21 16:23:11 10.71.57.0 3128-540 [10.71.57.0|get|0|371|0|0|0|2f6c696e6b732f484947485f79745f6c696e6b2e68746d6c|]
+Jan 21 16:23:11 10.71.57.0 3128-540 close "/links/HIGHLIGHTS_link.html" bytes read 363 written 0
+Jan 21 16:23:11 10.71.57.0 3128-540 [10.71.57.0|get|0|363|0|0|0|2f6c696e6b732f484947484c49474854535f6c696e6b2e68746d6c|]
+Jan 21 16:23:11 10.71.57.0 3128-540 open "/links/artsy_HIGH_link.html" flags READ mode 0666
+Jan 21 16:23:11 10.71.57.0 3128-540 open "/links/GRASSI20_link.html" flags READ mode 0666
+Jan 21 16:23:11 10.71.57.0 3128-540 close "/links/artsy_HIGH_link.html" bytes read 375 written 0
+Jan 21 16:23:11 10.71.57.0 3128-540 [10.71.57.0|get|0|375|0|0|0|2f6c696e6b732f61727473795f484947485f6c696e6b2e68746d6c|]
+Jan 21 16:23:11 10.71.57.0 3128-540 close "/links/GRASSI20_link.html" bytes read 354 written 0
+Jan 21 16:23:11 10.71.57.0 3128-540 [10.71.57.0|get|0|354|0|0|0|2f6c696e6b732f47524153534932305f6c696e6b2e68746d6c|]
+Jan 21 16:23:11 10.71.57.0 3128-540 open "/links/INSTAGRAM_link.html" flags READ mode 0666
+Jan 21 16:23:11 10.71.57.0 3128-540 open "/links/HELSINKI_link.html" flags READ mode 0666
+Jan 21 16:23:11 10.71.57.0 3128-540 close "/links/INSTAGRAM_link.html" bytes read 375 written 0
+Jan 21 16:23:11 10.71.57.0 3128-540 [10.71.57.0|get|0|375|0|0|0|2f6c696e6b732f494e5354414752414d5f6c696e6b2e68746d6c|]
+Jan 21 16:23:11 10.71.57.0 3128-540 close "/links/HELSINKI_link.html" bytes read 405 written 0
+Jan 21 16:23:11 10.71.57.0 3128-540 [10.71.57.0|get|0|405|0|0|0|2f6c696e6b732f48454c53494e4b495f6c696e6b2e68746d6c|]
+Jan 21 16:23:12 10.71.57.0 3128-540 open "/links/HELSINKI_images.html" flags READ mode 0666
+Jan 21 16:23:12 10.71.57.0 3128-540 open "/links/JEWELERS_WERK_link.html" flags READ mode 0666
+Jan 21 16:23:12 10.71.57.0 3128-540 close "/links/HELSINKI_images.html" bytes read 395 written 0
+Jan 21 16:23:12 10.71.57.0 3128-540 [10.71.57.0|get|0|395|0|0|0|2f6c696e6b732f48454c53494e4b495f696d616765732e68746d6c|]
+Jan 21 16:23:12 10.71.57.0 3128-540 close "/links/JEWELERS_WERK_link.html" bytes read 368 written 0
+Jan 21 16:23:12 10.71.57.0 3128-540 [10.71.57.0|get|0|368|0|0|0|2f6c696e6b732f4a4557454c4552535f5745524b5f6c696e6b2e68746d6c|]
+Jan 21 16:23:12 10.71.57.0 3128-540 open "/links/BIRO_SCHMUCK_2019_link.html" flags READ mode 0666
+Jan 21 16:23:12 10.71.57.0 3128-540 open "/links/SCHMUCK_2019_link.html" flags READ mode 0666
+Jan 21 16:23:12 10.71.57.0 3128-540 close "/links/BIRO_SCHMUCK_2019_link.html" bytes read 364 written 0
+Jan 21 16:23:12 10.71.57.0 3128-540 [10.71.57.0|get|0|364|0|0|0|2f6c696e6b732f4249524f5f5343484d55434b5f323031395f6c696e6b2e68746d6c|]
+Jan 21 16:23:12 10.71.57.0 3128-540 close "/links/SCHMUCK_2019_link.html" bytes read 394 written 0
+Jan 21 16:23:12 10.71.57.0 3128-540 [10.71.57.0|get|0|394|0|0|0|2f6c696e6b732f5343484d55434b5f323031395f6c696e6b2e68746d6c|]
+Jan 21 16:23:12 10.71.57.0 3128-540 open "/links/jewelerswerk_link.html" flags READ mode 0666
+Jan 21 16:23:12 10.71.57.0 3128-540 open "/links/XEMAROO_link.html" flags READ mode 0666
+Jan 21 16:23:12 10.71.57.0 3128-540 close "/links/jewelerswerk_link.html" bytes read 361 written 0
+Jan 21 16:23:12 10.71.57.0 3128-540 [10.71.57.0|get|0|361|0|0|0|2f6c696e6b732f6a6577656c6572737765726b5f6c696e6b2e68746d6c|]
+Jan 21 16:23:12 10.71.57.0 3128-540 close "/links/XEMAROO_link.html" bytes read 351 written 0
+Jan 21 16:23:12 10.71.57.0 3128-540 [10.71.57.0|get|0|351|0|0|0|2f6c696e6b732f58454d41524f4f5f6c696e6b2e68746d6c|]
+Jan 21 16:23:12 10.71.57.0 3128-540 open "/links/VIDEO_link.html" flags READ mode 0666
+Jan 21 16:23:12 10.71.57.0 3128-540 open "/links/TRESOR_link.html" flags READ mode 0666
+Jan 21 16:23:12 10.71.57.0 3128-540 close "/links/TRESOR_link.html" bytes read 350 written 0
+Jan 21 16:23:12 10.71.57.0 3128-540 [10.71.57.0|get|0|350|0|0|0|2f6c696e6b732f545245534f525f6c696e6b2e68746d6c|]
+Jan 21 16:23:12 10.71.57.0 3128-540 close "/links/VIDEO_link.html" bytes read 368 written 0
+Jan 21 16:23:12 10.71.57.0 3128-540 [10.71.57.0|get|0|368|0|0|0|2f6c696e6b732f564944454f5f6c696e6b2e68746d6c|]
+Jan 21 16:23:13 10.71.57.0 3128-540 open "/links/SMKP_link.html" flags READ mode 0666
+Jan 21 16:23:13 10.71.57.0 3128-540 open "/links/RR_link.html" flags READ mode 0666
+Jan 21 16:23:13 10.71.57.0 3128-540 close "/links/SMKP_link.html" bytes read 398 written 0
+Jan 21 16:23:13 10.71.57.0 3128-540 [10.71.57.0|get|0|398|0|0|0|2f6c696e6b732f534d4b505f6c696e6b2e68746d6c|]
+Jan 21 16:23:13 10.71.57.0 3128-540 close "/links/RR_link.html" bytes read 376 written 0
+Jan 21 16:23:13 10.71.57.0 3128-540 [10.71.57.0|get|0|376|0|0|0|2f6c696e6b732f52525f6c696e6b2e68746d6c|]
+Jan 21 16:23:13 10.71.57.0 3128-540 open "/links/OONA_link.html" flags READ mode 0666
+Jan 21 16:23:13 10.71.57.0 3128-540 open "/links/OONA_foulards_link.html" flags READ mode 0666
+Jan 21 16:23:13 10.71.57.0 3128-540 close "/links/OONA_link.html" bytes read 352 written 0
+Jan 21 16:23:13 10.71.57.0 3128-540 [10.71.57.0|get|0|352|0|0|0|2f6c696e6b732f4f4f4e415f6c696e6b2e68746d6c|]
+Jan 21 16:23:13 10.71.57.0 3128-540 close "/links/OONA_foulards_link.html" bytes read 397 written 0
+Jan 21 16:23:13 10.71.57.0 3128-540 [10.71.57.0|get|0|397|0|0|0|2f6c696e6b732f4f4f4e415f666f756c617264735f6c696e6b2e68746d6c|]
+Jan 21 16:23:13 10.71.57.0 3128-540 open "/links/Museum_D-Dorf_link.html" flags READ mode 0666
+Jan 21 16:23:13 10.71.57.0 3128-540 open "/links/MFA_link.html" flags READ mode 0666
+Jan 21 16:23:13 10.71.57.0 3128-540 close "/links/Museum_D-Dorf_link.html" bytes read 372 written 0
+Jan 21 16:23:13 10.71.57.0 3128-540 [10.71.57.0|get|0|372|0|0|0|2f6c696e6b732f4d757365756d5f442d446f72665f6c696e6b2e68746d6c|]
+Jan 21 16:23:13 10.71.57.0 3128-540 close "/links/MFA_link.html" bytes read 363 written 0
+Jan 21 16:23:13 10.71.57.0 3128-540 [10.71.57.0|get|0|363|0|0|0|2f6c696e6b732f4d46415f6c696e6b2e68746d6c|]
+Jan 21 16:23:13 10.71.57.0 3128-540 open "/links/META-Smith_link.html" flags READ mode 0666
+Jan 21 16:23:13 10.71.57.0 3128-540 open "/links/MAK_link_germ.html" flags READ mode 0666
+Jan 21 16:23:13 10.71.57.0 3128-540 close "/links/META-Smith_link.html" bytes read 429 written 0
+Jan 21 16:23:13 10.71.57.0 3128-540 [10.71.57.0|get|0|429|0|0|0|2f6c696e6b732f4d4554412d536d6974685f6c696e6b2e68746d6c|]
+Jan 21 16:23:13 10.71.57.0 3128-540 close "/links/MAK_link_germ.html" bytes read 470 written 0
+Jan 21 16:23:13 10.71.57.0 3128-540 [10.71.57.0|get|0|470|0|0|0|2f6c696e6b732f4d414b5f6c696e6b5f6765726d2e68746d6c|]
+Jan 21 16:23:14 10.71.57.0 3128-540 open "/links/MAK_link_engl.html" flags READ mode 0666
+Jan 21 16:23:14 10.71.57.0 3128-540 open "/links/Kunsthandwerkstage_link.html" flags READ mode 0666
+Jan 21 16:23:14 10.71.57.0 3128-540 close "/links/MAK_link_engl.html" bytes read 472 written 0
+Jan 21 16:23:14 10.71.57.0 3128-540 [10.71.57.0|get|0|472|0|0|0|2f6c696e6b732f4d414b5f6c696e6b5f656e676c2e68746d6c|]
+Jan 21 16:23:14 10.71.57.0 3128-540 close "/links/Kunsthandwerkstage_link.html" bytes read 426 written 0
+Jan 21 16:23:14 10.71.57.0 3128-540 [10.71.57.0|get|0|426|0|0|0|2f6c696e6b732f4b756e737468616e647765726b73746167655f6c696e6b2e68746d6c|]
+Jan 21 16:23:14 10.71.57.0 3128-540 open "/links/KOLUMBA_link.html" flags READ mode 0666
+Jan 21 16:23:14 10.71.57.0 3128-540 open "/links/GRASSI_link.html" flags READ mode 0666
+Jan 21 16:23:14 10.71.57.0 3128-540 close "/links/KOLUMBA_link.html" bytes read 415 written 0
+Jan 21 16:23:14 10.71.57.0 3128-540 [10.71.57.0|get|0|415|0|0|0|2f6c696e6b732f4b4f4c554d42415f6c696e6b2e68746d6c|]
+Jan 21 16:23:14 10.71.57.0 3128-540 close "/links/GRASSI_link.html" bytes read 353 written 0
+Jan 21 16:23:14 10.71.57.0 3128-540 [10.71.57.0|get|0|353|0|0|0|2f6c696e6b732f4752415353495f6c696e6b2e68746d6c|]
+Jan 21 16:23:14 10.71.57.0 3128-540 open "/links/GALERIE_ROSEMARI_JAEGER_link.html" flags READ mode 0666
+Jan 21 16:23:14 10.71.57.0 3128-540 open "/links/FUNAKI_link.html" flags READ mode 0666
+Jan 21 16:23:14 10.71.57.0 3128-540 close "/links/GALERIE_ROSEMARI_JAEGER_link.html" bytes read 375 written 0
+Jan 21 16:23:14 10.71.57.0 3128-540 [10.71.57.0|get|0|375|0|0|0|2f6c696e6b732f47414c455249455f524f53454d4152495f4a41454745525f6c696e6b2e68746d6c|]
+Jan 21 16:23:14 10.71.57.0 3128-540 close "/links/FUNAKI_link.html" bytes read 359 written 0
+Jan 21 16:23:14 10.71.57.0 3128-540 [10.71.57.0|get|0|359|0|0|0|2f6c696e6b732f46554e414b495f6c696e6b2e68746d6c|]
+Jan 21 16:23:14 10.71.57.0 3128-540 open "/links/FORM-Miami-3_link.html" flags READ mode 0666
+Jan 21 16:23:14 10.71.57.0 3128-540 open "/links/FORM-Miami-2_link.html" flags READ mode 0666
+Jan 21 16:23:14 10.71.57.0 3128-540 close "/links/FORM-Miami-3_link.html" bytes read 389 written 0
+Jan 21 16:23:14 10.71.57.0 3128-540 [10.71.57.0|get|0|389|0|0|0|2f6c696e6b732f464f524d2d4d69616d692d335f6c696e6b2e68746d6c|]
+Jan 21 16:23:14 10.71.57.0 3128-540 close "/links/FORM-Miami-2_link.html" bytes read 354 written 0
+Jan 21 16:23:14 10.71.57.0 3128-540 [10.71.57.0|get|0|354|0|0|0|2f6c696e6b732f464f524d2d4d69616d692d325f6c696e6b2e68746d6c|]
+Jan 21 16:23:14 10.71.57.0 3128-540 open "/links/FORM-Miami-1_link.html" flags READ mode 0666
+Jan 21 16:23:14 10.71.57.0 3128-540 open "/links/Datenschutz_sj.html" flags READ mode 0666
+Jan 21 16:23:15 10.71.57.0 3128-540 close "/links/FORM-Miami-1_link.html" bytes read 383 written 0
+Jan 21 16:23:15 10.71.57.0 3128-540 [10.71.57.0|get|1|383|0|0|0|2f6c696e6b732f464f524d2d4d69616d692d315f6c696e6b2e68746d6c|]
+Jan 21 16:23:15 10.71.57.0 3128-540 close "/links/Datenschutz_sj.html" bytes read 9253 written 0
+Jan 21 16:23:15 10.71.57.0 3128-540 [10.71.57.0|get|1|9253|0|0|0|2f6c696e6b732f446174656e73636875747a5f736a2e68746d6c|]
+Jan 21 16:23:15 10.71.57.0 3128-540 open "/links/Cooper-Hewitt-2_link.html" flags READ mode 0666
+Jan 21 16:23:15 10.71.57.0 3128-540 open "/links/Cooper-Hewitt-1_link.html" flags READ mode 0666
+Jan 21 16:23:15 10.71.57.0 3128-540 close "/links/Cooper-Hewitt-2_link.html" bytes read 384 written 0
+Jan 21 16:23:15 10.71.57.0 3128-540 [10.71.57.0|get|0|384|0|0|0|2f6c696e6b732f436f6f7065722d4865776974742d325f6c696e6b2e68746d6c|]
+Jan 21 16:23:15 10.71.57.0 3128-540 close "/links/Cooper-Hewitt-1_link.html" bytes read 385 written 0
+Jan 21 16:23:15 10.71.57.0 3128-540 [10.71.57.0|get|0|385|0|0|0|2f6c696e6b732f436f6f7065722d4865776974742d315f6c696e6b2e68746d6c|]
+Jan 21 16:23:15 10.71.57.0 3128-540 open "/links/CRANACH_link.html" flags READ mode 0666
+Jan 21 16:23:15 10.71.57.0 3128-540 open "/links/CODA_link.html" flags READ mode 0666
+Jan 21 16:23:15 10.71.57.0 3128-540 close "/links/CRANACH_link.html" bytes read 416 written 0
+Jan 21 16:23:15 10.71.57.0 3128-540 [10.71.57.0|get|0|416|0|0|0|2f6c696e6b732f4352414e4143485f6c696e6b2e68746d6c|]
+Jan 21 16:23:15 10.71.57.0 3128-540 close "/links/CODA_link.html" bytes read 376 written 0
+Jan 21 16:23:15 10.71.57.0 3128-540 [10.71.57.0|get|0|376|0|0|0|2f6c696e6b732f434f44415f6c696e6b2e68746d6c|]
+Jan 21 16:23:15 10.71.57.0 3128-540 open "/links/BIRO_SCHMUCK_link.html" flags READ mode 0666
+Jan 21 16:23:15 10.71.57.0 3128-540 open "/links/BERLIN_link.html" flags READ mode 0666
+Jan 21 16:23:15 10.71.57.0 3128-540 close "/links/BIRO_SCHMUCK_link.html" bytes read 371 written 0
+Jan 21 16:23:15 10.71.57.0 3128-540 [10.71.57.0|get|0|371|0|0|0|2f6c696e6b732f4249524f5f5343484d55434b5f6c696e6b2e68746d6c|]
+Jan 21 16:23:15 10.71.57.0 3128-540 close "/links/BERLIN_link.html" bytes read 420 written 0
+Jan 21 16:23:15 10.71.57.0 3128-540 [10.71.57.0|get|0|420|0|0|0|2f6c696e6b732f4245524c494e5f6c696e6b2e68746d6c|]
+Jan 21 16:23:15 10.71.57.0 3128-540 open "/links/BENGEL_link.html" flags READ mode 0666
+Jan 21 16:23:15 10.71.57.0 3128-540 open "/links/ARTSY_link.html" flags READ mode 0666
+Jan 21 16:23:15 10.71.57.0 3128-540 close "/links/BENGEL_link.html" bytes read 375 written 0
+Jan 21 16:23:15 10.71.57.0 3128-540 [10.71.57.0|get|0|375|0|0|0|2f6c696e6b732f42454e47454c5f6c696e6b2e68746d6c|]
+Jan 21 16:23:15 10.71.57.0 3128-540 close "/links/ARTSY_link.html" bytes read 422 written 0
+Jan 21 16:23:15 10.71.57.0 3128-540 [10.71.57.0|get|0|422|0|0|0|2f6c696e6b732f41525453595f6c696e6b2e68746d6c|]
+Jan 21 16:23:16 10.71.57.0 3128-540 open "/links/ARTAUREA_link.html" flags READ mode 0666
+Jan 21 16:23:16 10.71.57.0 3128-540 close "/links/ARTAUREA_link.html" bytes read 413 written 0
+Jan 21 16:23:16 10.71.57.0 3128-540 [10.71.57.0|get|0|413|0|0|0|2f6c696e6b732f41525441555245415f6c696e6b2e68746d6c|]
+Jan 21 16:23:16 10.71.57.0 3128-540 open "/logs/access.log.50.gz" flags READ mode 0666
+Jan 21 16:23:16 10.71.57.0 3128-540 close "/logs/access.log.50.gz" bytes read 84581 written 0
+Jan 21 16:23:16 10.71.57.0 3128-540 [10.71.57.0|get|0|84581|0|0|0|2f6c6f67732f6163636573732e6c6f672e35302e677a|]
+Jan 21 16:23:16 10.71.57.0 3128-540 open "/logs/access.log.48.gz" flags READ mode 0666
+Jan 21 16:23:16 10.71.57.0 3128-540 open "/logs/access.log.03.5.gz" flags READ mode 0666
+Jan 21 16:23:16 10.71.57.0 3128-540 close "/logs/access.log.48.gz" bytes read 71305 written 0
+Jan 21 16:23:16 10.71.57.0 3128-540 [10.71.57.0|get|0|71305|0|0|0|2f6c6f67732f6163636573732e6c6f672e34382e677a|]
+Jan 21 16:23:16 10.71.57.0 3128-540 close "/logs/access.log.03.5.gz" bytes read 14386 written 0
+Jan 21 16:23:16 10.71.57.0 3128-540 [10.71.57.0|get|0|14386|0|0|0|2f6c6f67732f6163636573732e6c6f672e30332e352e677a|]
+Jan 21 16:23:16 10.71.57.0 3128-540 open "/logs/access.log.03.1.gz" flags READ mode 0666
+Jan 21 16:23:16 10.71.57.0 3128-540 open "/logs/access.log.01.gz" flags READ mode 0666
+Jan 21 16:23:16 10.71.57.0 3128-540 close "/logs/access.log.03.1.gz" bytes read 10342 written 0
+Jan 21 16:23:16 10.71.57.0 3128-540 [10.71.57.0|get|0|10342|0|0|0|2f6c6f67732f6163636573732e6c6f672e30332e312e677a|]
+Jan 21 16:23:16 10.71.57.0 3128-540 close "/logs/access.log.01.gz" bytes read 66332 written 0
+Jan 21 16:23:16 10.71.57.0 3128-540 [10.71.57.0|get|0|66332|0|0|0|2f6c6f67732f6163636573732e6c6f672e30312e677a|]
+Jan 21 16:23:16 10.71.57.0 3128-540 open "/logs/sftp.log" flags READ mode 0666
