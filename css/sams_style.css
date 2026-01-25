@@ -800,6 +800,9 @@ footer {
   color: red;
 }
 
+
+
+/* *********NEW FOR MOBILE ********** 2026 */
 /* Mobile Styles (Devices 768px and smaller) */
 @media only screen and (max-width: 768px) {
   body {
@@ -831,7 +834,7 @@ footer {
     padding: 10px;
   }
 }
-
+/* *********END FOR MOBILE ********** 2026 */
 
 
 /* >> The Magnificent CLEARFIX: Updated to prevent margin-collapsing on child elements << j.mp/bestclearfix */
