@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>example</title>
+	<script src="jquery.min2.js" type="text/javascript" charset="utf-8"></script>
+	<script src="jquery.innerfade2.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function() {
+			$('#schmuck').innerFade({
+				indexContainer: '#index',
+				currentItemContainer: '.current',
+				totalItemsContainer: '.total',
+				timeout: 6000,
+				pauseLink: '.pause',
+				prevLink: '.prev',
+				nextLink: '.next'
+			});
+
+
+		});
+	</script>
+	<style>
+
+  body {
+    background: #000;
+    color: #000;
+}
+
+	#schmuck li {
+		height: 601px;
+		width: 402px;
+		list-style: none;
+	}
+
+	#show-nav li {
+		list-style: none;
+		text-decoration:none;
+
+	}
+
+	#close li {
+		list-style: none;
+		text-decoration:none;
+	}
+
+	#schmuck_con {
+		height: 800px;
+		width: 840px;
+		margin-left:auto;
+  		margin-right:auto;
+		z-index: 100;
+
+	}
+
+	#backdiv {
+	margin-left:auto;
+	margin-right:auto;
+  	height: 100%;
+    background:#000000;
+    z-index: 5;
+	}
+	</style>
+
+
+
+
+</head>
+
+<body>
+
+
+
+<div id="backdiv">
+<div id="schmuck_con">
+	<ul id="close">
+	<a style="text-decoration: none; color: #FFFFFF;" href="http://www.svenja-john.de/">x</a>
+	</ul>
+	<!-- fade-container -->
+	  <ul id="schmuck">
+	  	  <li><img src="schmuck/S_a_K__001.jpg"></li>
+	  	  <li><img src="schmuck/S_a_K__002.jpg"></li>
+	  	  <li><img src="schmuck/Erica-mit-ZAMIST.jpg"></li>	  	  
+	      <li><img src="schmuck/Jaqueline-with-Reflexite.jpg"></li>
+		  <li><img src="schmuck/W-daniel-bunt.jpg"></li>
+		  <li><img src="schmuck/Petra-with-Breath.jpg"></li>
+		  <li><img src="schmuck/Uwe-with-Mauk.jpg"></li>
+	      <li><img src="schmuck/Katharina-with-Tallo.jpg"></li>
+		  <li><img src="schmuck/Aaron-with-NABOO.jpg"></li>
+		  <li><img src="schmuck/FC_with_SIBIU.jpg"></li>
+		  <li><img src="schmuck/Tatjana-with-Arabesk.jpg"></li>
+		  <li><img src="schmuck/Daniel-with-Hariot.jpg"></li>
+		  <li><img src="schmuck/Ellen_with_BOISE.jpg"></li>
+		  <li><img src="schmuck/Katharina_mit_TURDA.jpg"></li>
+	  	</ul>
+
+
+	<ul id="show-nav">
+		<li><a style="text-decoration: none; color: #FFFFFF;" class="prev" href="#">&lt;&lt;&lt;</a></li>
+		<li><a style="text-decoration: none; color: #FFFFFF;" class="pause" href="#">pause</a></li>
+		<li><a style="text-decoration: none; color: #FFFFFF;" class="next" href="#">&gt;&gt;&gt;</a></li>
+	</ul>
+</div>
+</div>
+
+</body>
+</html>
